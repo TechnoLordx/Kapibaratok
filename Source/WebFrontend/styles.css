@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Anton', sans-serif;
+}
+
+html{
+    background-color: #030303;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0c0c0c;
+    -webkit-font-smoothing: antialiased;
+}
