@@ -24,3 +24,10 @@ Az informatikával, matematikával kapcsolatos viccek segítségével csökkents
 
 1. Legyen több fül, melyeken belül a viccek külön vannak szedve típus szerint.
 2. A kinézet ne változzon meg egyik oldalon sem, hogy ne kelljen keresni a felhasználónak a már jól megszokott füleket/linkeket.
+
+## Előre haladás:
+### 1.hét
+1.  Alapháttér hozzáadása
+2.  Egyszerű menü pontok létrehozása
+3.  Hivatkozás létrehozása a menüpontokra
+4.  styles.css létrehozása
