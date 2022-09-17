@@ -61,3 +61,19 @@ fontos, hogy mindegyik a megfelelő oldalt töltse be.
 **A mintán a főoldal és a témák egyszinten vannak mivel az a főoldalon belűl fog majd elhelyezkedni és innnen történik majd az átírányítás.* 
 #
 
+## Forgatókönyvek
+------------------------------
+* A felhasználó megnyitja a weboldalt és az betölti a kezdőképernyőt. Ezután választhat a megadott kategóriák közül, hogy milyen vicceket szeretne látni. Több kategória közül kiválasztja a matematikával kapcsolatos vicceket, és itt böngészheti ezeket. A felhasználó az oldal vagy a böngésző becsukásával léphet ki a weblapról.
+* Ha felhasználónak eszébe jut egy vicc, mely kapcsolódik a témához, ezért megnyitja az "Elérhetőség" oldalt. Itt üzenetet küld a szerkesztők számára a megadott emailcím alapján. Ezt a szerkesztők elolvassák. Ha megfelel minden kritériumnak akkor publikálásra kerül.
+
+
+## Fogalomszótár
+------------------------------
+* Frontend: Frontend-nek számít minden, amit egy weboldalon látsz: funkciók, dizájnelemek, felépítés.
+* Backend: A Backend a háttérben futó folyamatokkal foglalkozik, pl. szerveroldali programozással, űrlapon beküldött adatok feldolgozásával, statisztika készítéssel.
+* HTML: A HTML (angolul: HyperText Markup Language, „hiperszöveges jelölőnyelv”) egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki.
+* CSS: A CSS (Cascading Style Sheets, magyarul: „lépcsőzetes stíluslapok”) a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
+* JavaScript: A JavaScript programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
+* PHP: Egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére. Az első szkriptnyelvek egyike, amely külső fájl használata helyett HTML oldalba ágyazható. A kódot a webszerver PHP feldolgozómodulja értelmezi, ezzel dinamikus weboldalakat hozva létre.
+* MySQL: A MySQL egy többfelhasználós, többszálú, SQL-alapú relációs adatbázis-kezelő szerver. (Viccek tárolását segíti)
+* XAMPP: Egy szabad és nyílt forrású platformfüggetlen webszerver-szoftvercsomag, amelynek legfőbb alkotóelemei az Apache webszerver, a MariaDB adatbázis-kezelő, valamint a PHP és a Perl programozási nyelvek értelmezői.
