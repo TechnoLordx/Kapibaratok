@@ -19,15 +19,26 @@ Az informatikával, matematikával kapcsolatos viccek segítségével csökkents
 3. Figyelemfelkeltő kinézet és effektusok használata.
 4. Interaktív legyen.
 5. Elérhetőség, hogy a felhasználók tudjanak ötletet megosztani a szerkesztőkkel.
+6. Jól elkülönithetőek legyenek a vicc kategóriák.
+7. Minden oldalon legyen lehetőség vissza lépni a főoldalra, ezzel is szertnénk hangsújozni az **1. pontban foglaltakat**.
+
 
 ## Megrendelői "atomi" igényspecifikáció:
 
 1. Legyen több fül, melyeken belül a viccek külön vannak szedve típus szerint.
 2. A kinézet ne változzon meg egyik oldalon sem, hogy ne kelljen keresni a felhasználónak a már jól megszokott füleket/linkeket.
 
-## Előre haladás:
-### 1.hét
-1.  Alapháttér hozzáadása
-2.  Egyszerű menü pontok létrehozása
-3.  Hivatkozás létrehozása a menüpontokra
-4.  styles.css létrehozása
+## Fogalomszótár (bövűlhet)
+
+1. **HTML** : A HTML egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált.
+
+2. **CSS** : Egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
+
+3. **JavaScript** : Programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
+
+4. **PHP** : Egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére. Az első szkriptnyelvek egyike, amely külső fájl használata helyett HTML oldalba ágyazható. A kódot a webszerver PHP feldolgozómodulja értelmezi, ezzel dinamikus weboldalakat hozva létre.
+
+5. **MySQL** : Egy többfelhasználós, többszálú, SQL-alapú relációs adatbázis-kezelő szerver. ( Viccek tárolását segití)
+
+6. **XAMPP** : Egy szabad és nyílt forrású platformfüggetlen webszerver-szoftvercsomag, amelynek legfőbb alkotóelemei az Apache webszerver, a MariaDB adatbázis-kezelő, valamint a PHP és a Perl programozási nyelvek értelmezői.
+#
