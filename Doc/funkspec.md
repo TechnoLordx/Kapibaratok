@@ -1,3 +1,12 @@
+# Áttekintés:
+
+A diák élethez hozzá tartozik a folyamatos megfeszített tanulás és figyelés, viszont minden embernek szüksége van a kikapcsolódásra, és a humorra. A DE hallgatói sem különböznek ettől. Jelenlegi helyzet odáig fajult, hogy a diákok kezdek elveszteni a tanuláshoz való vágyukat. Egy olyan megoldásra van szükségünk amely gyorsan, mindenki számára elérhető. Egy vicc portál létrehozása javíthatna a tanulók morálján. Mivel az Egyetem a teljes területén lehetőséget biztosít az internethez való csatlakozáshoz (eduroam) ezért egy webes felület megfelelne erre a célra. Úgy gondoljuk ezek a lépések nagyban elősegítik a halgatók produktív munkáját. Ezek a reál tárgyak nagyon unalmasak lehet időnként ezért hasonló témájú viccekkel próbáljuk a tanulókat rávenni arra hogy tanuljanak vagy csak kedvet kapjanak a tanuláshoz,illetve csak kikapcsolódni a fáradságos nap végén. A másik hatalmas előnye hogy teljesen ingyenes így bárki bárhonann bármikor elérheti.
+
+# Jelenlegi helyzet:
+
+A megrendelő szeretné hogy a diákok még motiváltabban tanuljanak, hogy versenytársaihoz képest így jusson piaci illetve némi  személyes előnyre is azáltal hogy az általa tanított tárgyakat a diákok jobban megszeressék. Egy új weblap előállítását rendelte meg,amely növeli a diákok morálját modern módszerekkel. Ez a felület az interneten lesz elérhető mivel a XXI. század megköveteli hogy ezt bárhol bármikor elérhessék ezért diákok. Ez a weblap segítséget fog nyújtani azok számára akiknek nincs elég motivációjuk a tanuláshoz. A diákoknak nagyon tetszett az effajta játékos és különleges lehetőség ezt a tanárok is felisemerték ezért minnél több platformon szeretnék ezt lehetővé tenni.Találtak többet is (pl.:Kahoot), viszont ezek nem tetszettek nekik mivel ez competitiv illetve önállóan nem lehet hatékonyan használni. Ezen okokból kifolyólag
+megkértek minket, hogy csináljuk meg nekik ezt a vágyott weboldalt,ami sokkal könnyebbé teheti számukra az oktatást.
+
 # A rendszer céljai:
 1. A diákoknak több kedvük legyen a tanuláshoz. Például olyan viccekkel melyek iskolához kapcsolódnak.
 2. Telefonról is el lehet érni, kinézete megfelelő, nem csúszik ki a képernyőről.
@@ -15,10 +24,6 @@
 2. A viccek tartalmilag ne legyenek bántaóak, támadó jellegűek.
 3. Összezavaró menürendszer.
 
-# Miért esett erre a döntés, jelenlegi helyzet:
-
-A diák élethez hozzá tartozik a folyamatos megfeszített tanulás és figyelés, viszont minden embernek szüksége van a kikapcsolódásra, és a humorra. A DE hallgatói sem különböznek ettől. Jelenlegi helyzet odáig fajult, hogy a diákok kezdek elveszteni a tanuláshoz való vágyukat. Egy olyan megoldásra van szükségünk amely gyorsan, mindenki számára elérhető.
-
 ## Megrendelői vízió (Vágyálom)
 Az informatikával, matematikával kapcsolatos viccek segítségével csökkentsük a feszültséget. Egy könnyen elérhető vicc portál. A célja az lenne, hogy humor segítségével feltöltse az olvasót.
 Egy könnyen átlátható, használható rendszer felépítés. A weboldal színes és feltűnő legyen. A gombok jól láthatóak legyenek, legyen eltérő színűk, mintázatuk az oldal főkoncepciójához képest, de maradjanak összhangban. Az oldal használata közben ha megváltozik a képarány jól alkalmazkodjon hozzá a weboldal, úgy is jól használható maradjon. Törekedni kell az egyszerű de ötletes megoldásokhoz. A weboldal több lapja között való lépegetés könnyen elérhető legyen. A viccportál lapjai között a kinézet valamilyen szinten módosuljon, kisebb változtatások a gombok színe, háttérelemek, betűtípus változzon meg. Interaktív gombok és szövegek használata, melyekhez különböző funkciókat kötünk hozzá, mint például szövegre kattintva tovább irányít egy másik linkre a weboldal.
@@ -32,7 +37,6 @@ A használati eset a rendszer és a felhasználók közötti kommunikációt ír
 
 * Az oldal használata alatt az értendő, hogy a felhasználó olvassa a vicceket, vissza lépés gomb használata is ide tartozik.
 
-#
 
 ## Megrendelői követelmény:
 1. Könnyen kezelhető felület.
@@ -42,6 +46,16 @@ A használati eset a rendszer és a felhasználók közötti kommunikációt ír
 5. Elérhetőség, hogy a felhasználók tudjanak ötletet megosztani a szerkesztőkkel.
 6. Jól elkülönithetőek legyenek a vicc kategóriák.
 7. Minden oldalon legyen lehetőség vissza lépni a főoldalra, ezzel is szertnénk hangsújozni az **1. pontban foglaltakat**.
+8. Belépési rendszer
+
+# Jelenlegi üzleti folyamatok modellje
+Sajnálatos módon a mai világban az oktatás nem használja ki megfelelő módon a technológiákat
+arra, hogy a tanulást sokkal szórakoztatóbbá és interaktívabbá tegye ezáltal a diákok sokkal motiválatlanabbak és egyre kevesebb kedvük van tanulni. Ez egyértelműen látszik a mostani diákokon akik már kiskoruk óta használnak valami okos eszközt. Legfőképpen tankönyevből tanulnak mellyek nem interaktívak és legtöbbször csak száraz tényeket tartalmaznak, nem beszélve arról hogy mennyire pazarékolja a papírt illetve ennek az extra költségéről.
+
+# Igényelt üzleti folyamatok modellje
+● Azért hogy megkönnyítsük a diákok és a tanárok
+feladatát, létrehozunk egy weblapot ami a mai kornak megfelelően
+helyt tud állni az elektronikai világban. A rengeteg stressz,szorongás közben könnyedén feloldódhatnak illetve megismerhetik a az adott témához  kapcsolódó vicceket melyekkel érdekesebbé válik.
 
 ## Képernyő tervek
 #
@@ -66,6 +80,17 @@ fontos, hogy mindegyik a megfelelő oldalt töltse be.
 * A felhasználó megnyitja a weboldalt és az betölti a kezdőképernyőt. Ezután választhat a megadott kategóriák közül, hogy milyen vicceket szeretne látni. Több kategória közül kiválasztja a matematikával kapcsolatos vicceket, és itt böngészheti ezeket. A felhasználó az oldal vagy a böngésző becsukásával léphet ki a weblapról.
 * Ha felhasználónak eszébe jut egy vicc, mely kapcsolódik a témához, ezért megnyitja az "Elérhetőség" oldalt. Itt üzenetet küld a szerkesztők számára a megadott emailcím alapján. Ezt a szerkesztők elolvassák. Ha megfelel minden kritériumnak akkor publikálásra kerül.
 
+# Olvasmányos dokumentum:
+
+    Ez egy legendás történet  Ezékiel-ről szól a hirhedt informatikusról. Hirhedt 50kg-ja,zsírpacás kockás ingjét és 
+szandál papucsát mindenki ismerte és félte. Kivillanó fogszabályzója és négyzetes szemüvege minden nőtt rögötn elcsábított. Eggyik nap egy tanár lépett hozzá,az IT kedvence Mr. Jegenszkij Petrik. Rengeteg beceneve volt:majd jövőre,maximum kettes . Mindenki szerette. Osztályzását és számon kérését mindenki ismerte.A diákok főként azért szerették mert ő nem kínozta a diákokat öt jegy lehetőséggel csak kettővel.
+    Nem is kellet neki több kapott a lehetőségen és főhősünknek adott egy lehetőséget. Ilyen lehetőséget nem illik visszautasítani
+és kapott is egy 700 oldalas dokumentumot hogy tanulja meg. Ezékielnek hamar elment a kedve érezte hogy itt a vég. De akkor megtalált egy vicc portált. Amint megnyitotta a design szinte már erőtt adott neki de sajnos a feladat túl nagy nagy falat volt így is.
+    Amint rávitte a viccek menüre a hatalmas gigászi méretű kis egeret meglepően látta hogy mennyi téma van nem is beszélve a legördülő menüsorról.
+ Nem is habozott. Kiválasztotta a matematikai vicceket de olyan jók voltak hogy a rábízott feladat már nem is szímított annyira fellelkesült. Az a 700 oldal rögtön elrepült.Olyan dolog történt ami még soha,négyest kapott. Amikor a többi hiánána ezt megtudta és legnyagobb szükségük volt rá ő eltűnt. Azóta se került de a tudást hátra hagyta.
+    Annyira hálás volt hogy tudni ki akarta kik ezek a maszkos hősök. Megtalálta a szerény hősöket elérhetőség menüpont alatt.
+Fel is vette velük a kapcsolatot hogy valamiféleképpen meghálálja. Végül saját ötletekkel is támogatta ezt a tökéletes weboldalt.
+    Vajon ő is hőssé vált?Sose derül ki mostmár!
 
 ## Fogalomszótár
 ------------------------------
