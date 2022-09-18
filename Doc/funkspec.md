@@ -82,23 +82,39 @@ fontos, hogy mindegyik a megfelelő oldalt töltse be.
 
 # Olvasmányos dokumentum:
 
-    Ez egy legendás történet  Ezékiel-ről szól a hirhedt informatikusról. Hirhedt 50kg-ja,zsírpacás kockás ingjét és 
-szandál papucsát mindenki ismerte és félte. Kivillanó fogszabályzója és négyzetes szemüvege minden nőtt rögötn elcsábított. Eggyik nap egy tanár lépett hozzá,az IT kedvence Mr. Jegenszkij Petrik. Rengeteg beceneve volt:majd jövőre,maximum kettes . Mindenki szerette. Osztályzását és számon kérését mindenki ismerte.A diákok főként azért szerették mert ő nem kínozta a diákokat öt jegy lehetőséggel csak kettővel.
-    Nem is kellet neki több kapott a lehetőségen és főhősünknek adott egy lehetőséget. Ilyen lehetőséget nem illik visszautasítani
-és kapott is egy 700 oldalas dokumentumot hogy tanulja meg. Ezékielnek hamar elment a kedve érezte hogy itt a vég. De akkor megtalált egy vicc portált. Amint megnyitotta a design szinte már erőtt adott neki de sajnos a feladat túl nagy nagy falat volt így is.
-    Amint rávitte a viccek menüre a hatalmas gigászi méretű kis egeret meglepően látta hogy mennyi téma van nem is beszélve a legördülő menüsorról.
- Nem is habozott. Kiválasztotta a matematikai vicceket de olyan jók voltak hogy a rábízott feladat már nem is szímított annyira fellelkesült. Az a 700 oldal rögtön elrepült.Olyan dolog történt ami még soha,négyest kapott. Amikor a többi hiánána ezt megtudta és legnyagobb szükségük volt rá ő eltűnt. Azóta se került de a tudást hátra hagyta.
-    Annyira hálás volt hogy tudni ki akarta kik ezek a maszkos hősök. Megtalálta a szerény hősöket elérhetőség menüpont alatt.
-Fel is vette velük a kapcsolatot hogy valamiféleképpen meghálálja. Végül saját ötletekkel is támogatta ezt a tökéletes weboldalt.
-    Vajon ő is hőssé vált?Sose derül ki mostmár!
+    Ez egy legendás történet Ezékiel-ről szól a hirhedt informatikusról. Hirhedt 50kg-ja, zsírpacás kockás ingjét és 
+    szandál papucsát mindenki ismerte és félte. Kivillanó fogszabályzója és négyzetes szemüvege minden nőt rögtön elcsábított. Eggyik nap egy tanár lépett hozzá, az IK kedvence Mr. Jegenszkij Petrik. Rengeteg beceneve volt: majd jövőre, maximum kettes. Mindenki szerette. Osztályzását és számon kérését mindenki ismerte. A diákok főként azért szerették, mert ő nem kínozta a diákokat öt jegy lehetőséggel... csak kettővel.
+    Nem is kellet neki több, kapott a lehetőségen és főhősünknek adott egy lehetőséget. Ilyen lehetőséget nem illik visszautasítani
+    és kapott is egy 700 oldalas dokumentumot hogy tanulja meg. Ezékielnek hamar elment a kedve érezte hogy itt a vég. De akkor megtalált egy vicc portált. Amint megnyitotta a design szinte már erőtt adott neki, de sajnos a feladat túl nagy nagy falat volt így is.
+    Amint rávitte a viccek menüre a hatalmas gigászi bizánci méretű kis egeret, meglepődve látta, hogy mennyi téma van nem is beszélve a legördülő menüsorról.
+    Nem is habozott. Kiválasztotta a matematikai vicceket, de olyan jók voltak, hogy a rábízott feladat már nem is "számított" annyira fellelkesült. Az a 700 oldal rögtön elrepült. Olyan dolog történt, ami még soha, négyest kapott. Amikor a többi hiéna ezt megtudta és legnyagobb szükségük volt rá, ő eltűnt. Azóta se került elő, de a tudást hátra hagyta.
+    Annyira hálás volt, hogy tudni akarta kik ezek a maszkos hősök. Megtalálta a szerény hősöket elérhetőség menüpont alatt.
+    Fel is vette velük a kapcsolatot, hogy valamiféleképpen meghálálja. Végül saját ötletekkel is támogatta ezt a tökéletes weboldalt.
+    Vajon ő is hőssé vált? Sose derül ki mostmár!
 
 ## Fogalomszótár
 ------------------------------
-* Frontend: Frontend-nek számít minden, amit egy weboldalon látsz: funkciók, dizájnelemek, felépítés.
-* Backend: A Backend a háttérben futó folyamatokkal foglalkozik, pl. szerveroldali programozással, űrlapon beküldött adatok feldolgozásával, statisztika készítéssel.
-* HTML: A HTML (angolul: HyperText Markup Language, „hiperszöveges jelölőnyelv”) egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki.
-* CSS: A CSS (Cascading Style Sheets, magyarul: „lépcsőzetes stíluslapok”) a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
-* JavaScript: A JavaScript programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
-* PHP: Egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére. Az első szkriptnyelvek egyike, amely külső fájl használata helyett HTML oldalba ágyazható. A kódot a webszerver PHP feldolgozómodulja értelmezi, ezzel dinamikus weboldalakat hozva létre.
-* MySQL: A MySQL egy többfelhasználós, többszálú, SQL-alapú relációs adatbázis-kezelő szerver. (Viccek tárolását segíti)
-* XAMPP: Egy szabad és nyílt forrású platformfüggetlen webszerver-szoftvercsomag, amelynek legfőbb alkotóelemei az Apache webszerver, a MariaDB adatbázis-kezelő, valamint a PHP és a Perl programozási nyelvek értelmezői.
+
+* **Frontend:**
+Frontend-nek számít minden, amit egy weboldalon látsz: funkciók, dizájnelemek, felépítés.
+
+* **Backend:**
+A Backend a háttérben futó folyamatokkal foglalkozik, pl. szerveroldali programozással, űrlapon beküldött adatok feldolgozásával, statisztika készítéssel.
+
+* **HTML:**
+A HTML (angolul: HyperText Markup Language, „hiperszöveges jelölőnyelv”) egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki.
+
+* **CSS:**
+A CSS (Cascading Style Sheets, magyarul: „lépcsőzetes stíluslapok”) a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
+
+* **JavaScript:**
+A JavaScript programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
+
+* **PHP:**
+Egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére. Az első szkriptnyelvek egyike, amely külső fájl használata helyett HTML oldalba ágyazható. A kódot a webszerver PHP feldolgozómodulja értelmezi, ezzel dinamikus weboldalakat hozva létre.
+
+* **MySQL:**
+A MySQL egy többfelhasználós, többszálú, SQL-alapú relációs adatbázis-kezelő szerver. (Viccek tárolását segíti)
+
+* **XAMPP:**
+Egy szabad és nyílt forrású platformfüggetlen webszerver-szoftvercsomag, amelynek legfőbb alkotóelemei az Apache webszerver, a MariaDB adatbázis-kezelő, valamint a PHP és a Perl programozási nyelvek értelmezői.
