@@ -52,3 +52,50 @@ A weboldal elkészülésének határideje: 2022.10.03
  9. Html formázás
 10. Tesztelés
 11. Kiadás
+
+## Üzleti folyamatok
+#
+### Üzleti szereplők
++ A weboldal használói főleg az egytem hallgatói lesznek, de hozzáférése mindenkinek lesz aki rendelkezik internet hozzáféréssel. 
++ Tehát az egyetemen kivüli személyek is használhatják fontos, hogy könnyen értelmezhető és kezelhető legyen.
+
+### Üzleti folyamatok
++ A folyamat, a használat nagyon egyszerű.
++ A kezdőoldal tetején találhatóak a gombok amelyekkel lehet kiválasztani a vicc kategóriákat, illetve egy vissza gomba az oldalakon.
++ 9 vicc kategória közűl lehet majd választani pl : Ik -s viccek, matekos ...
++ A ketgória kiválasztása után betölti a vicceket és az oldalon lehet olvasni ezeket, továbbá megjelenik egy vissza gomb ami vissza vissz a főoldalra.
++ A visszagombra kattintva az eddig betoltött viccek értelem szerűen eltünnek és a főoldal jelenik meg.
+
+## Absztrakt domain modell
+
+A rendszerünk egy gépből áll, mivel a weboldal csak az adott gépen fut, használ hálózati kapcsolatot, kommunikál lokál szerverrel (xampp).
+
+## Architektúrális terv
+
+Ismételten a program helyileg fut, egyszerre összesen csak egy felhasználó tudja használni.
+ 
+A felhasználó az oldalt nem tudja módosítani azaz viccet hozzáadni, viszont a dokumentumok nincsenek titkosítva.
+
+## Adatbázis terv
+
+Az adattárolás egy adatbázis segítségével valósul meg. Ahhol a ketegóriák szerint tároljuk a vicceket.
+
+pl: |Programozos| Matek | ...
+
+és ezen oszlopok tartalmazzák majd a témának megfelelő vicceket. 
+Minden kategóriához 10 - 20 vicc tartzik.
+
+## Követelmények
+
++ Könnyen kezelhető felület.
++ Telefonról és gépről egyaránt jól kinéző.
++ Figyelemfelkeltő kinézet és effektusok használata.
++ Interaktív legyen.
++ Elérhetőség, hogy a felhasználók tudjanak ötletet megosztani a szerkesztőkkel.
++ Jól elkülönithetőek legyenek a vicc kategóriák.
++ Lehessen bővíteni a kategóriákat a program átadása után.
+
+## Fizikai környezet
+
+
+
