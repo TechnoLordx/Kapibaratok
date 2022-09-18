@@ -26,7 +26,7 @@ A projekten dolgozók listája és feladatai:
 3. Ilés Zoltán - Front-end programozó
 4. Kocsis Olivér - Front-end programozó
 
-Bezérdi Erik felelős a weboldal mögött futó programok megírása JavaScript nyelven.
+Bezerédi Erik felelős a weboldal mögött futó programok megírása JavaScript nyelven.
 Vass Bálint felelős a weboldal stílusáért CSS fájlok megírásával.
 Illés Zoltán felelős a weboldal felépítéséért HTML fájlok megírásával.
 Kocsis Olivér felelős a weboldal stílusáért CSS fájlok megírásával.
@@ -54,8 +54,6 @@ A weboldal elkészülésének határideje: 2022.10.03
  11. Tesztelés
  12. Kiadás
 
-## Üzleti folyamatok
-#
 ### Üzleti szereplők
 + A weboldal használói főleg az egytem hallgatói lesznek, de hozzáférése mindenkinek lesz aki rendelkezik internet hozzáféréssel. 
 + Tehát az egyetemen kivüli személyek is használhatják fontos, hogy könnyen értelmezhető és kezelhető legyen.
@@ -127,15 +125,9 @@ Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem találhat�
 
 
 ## Funkcionális terv
-
-A funkcionális működést az alábbi képernyő tervekkel szeretném felvázolni.
-Amint megnyitjuk a weblapot és az betölt egyből a főoldaltárul elénk amin fel van tüntetve a weboldal neve,
-valamint egyértlemű választás elé állít minket hogy válasszuk ki a támék menüpontot. 
-Ezután lenyillík egy legördülő mensüsor. Amint kiválasztjuk az egyik témát,a fenti fejléc nem változik csak a weboldal.
-Az oldal jobb oldalán lévő vagy az egér görgő gombja segítségével lejjeb lehet tekerni.
-Ez által több viccet lehet megtekinteni. Amint meguntuk ezt a témát a vissza gomb segítségével visszaléphetünk a főoldalra.
-Ezután a fejléc továbbra sem változik csak az oldal. Megtalálható egy rólunk menüpont is amely a tervezőket tartalmazza.
-Amennyiben van saját ötletünk ezt megoszthatjuk a fejlesztőkkel.Ezt ugyanúgy a rólunk menüpont alatt lehet megtalálni. Itt szöveges lehetőségünk van leírni az ötletünket illetve jelenteni a talált hibákat. 
+A funkcionális működést az alábbi képernyő tervekkel szeretném felvázolni. Amint megnyitjuk a weblapot és az betölt egyből a fő oldaltárul elénk amin fel van tüntetve a weboldal neve,
+valamint egyértlemű választás elé állít minket hogy válasszuk ki a témák menüpontot. Ezután lenyillík egy legördülő menüsor. Amint kiválasztjuk az egyik témát,a fenti fejléc nem változik csak a weboldal. Az oldal jobb oldalán lévő vagy az egér görgő gombja segítségével lejjeb lehet tekerni.
+Ez által a teljes oldalt megtekinteni. Amint meguntuk ezt a témát a vissza gomb segítségével visszaléphetünk a főoldalra. Ezután a fejléc továbbra sem változik csak az oldal. Megtalálható egy rólunk menüpont is amely a fejlesztőket tartalmazza. Amennyiben van saját ötletünk ezt megoszthatjuk a fejlesztőkkel. Ezt ugyanúgy a elérhetőség menüpont alatt lehet megtalálni. Itt szöveges lehetőségünk van leírni az ötletünket illetve jelenteni a talált hibákat. Lehetőségünk van regisztrálni, illetve belépni az oldalra.
 
 ### Szerepkörök:Felhasználó
 
@@ -179,7 +171,7 @@ Felhasználó
 A weblap folyamatos üzemeltetése és karbantartása, mely
 magában foglalja az esetleges hibák elhárítását, a belső igények változása miatti
 módosításokat, valamint a környezeti feltételek változása miatt
-megfogalmazott program-, illetve állomány módosítási igényeket. 
+megfogalmazott weblap, illetve állomány módosítási igényeket. 
 Idő elteltével új témákat kell hozzáadni a weblaphoz, hogy fent tartsuk az
 érdeklődési szintet.
 ### Karbantartás
