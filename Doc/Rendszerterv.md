@@ -21,7 +21,7 @@ Egy könnyen kezelhető főoldal és témaválasztó oldal az alapja, ezekről l
 
 A projekten dolgozók listája és feladatai:
 
-1. Bezerédi Erik - Back-end programozó
+1. Bezerédi Erik - FullStack programozó
 2. Vass Bálint - Front-end programozó
 3. Ilés Zoltán - Front-end programozó
 4. Kocsis Olivér - Front-end programozó
@@ -49,9 +49,10 @@ A weboldal elkészülésének határideje: 2022.10.03
  6. Oldalak összekapcsolása
  7. Interaktív gombok, szövegek hozzáadása
  8. Oldal stílusok megalkotása
- 9. Html formázás
-10. Tesztelés
-11. Kiadás
+ 9. Login system
+ 10. Html formázás
+ 11. Tesztelés
+ 12. Kiadás
 
 ## Üzleti folyamatok
 #
@@ -95,7 +96,68 @@ Minden kategóriához 10 - 20 vicc tartzik.
 + Jól elkülönithetőek legyenek a vicc kategóriák.
 + Lehessen bővíteni a kategóriákat a program átadása után.
 
+## Funkcionális terv
+
+A funkcionális működést az alábbi képernyő tervekkel szeretném felvázolni.
+Amint megnyitjuk a weblapot és az betölt egyből a főoldaltárul elénk amin fel van tüntetve a weboldal neve,
+valamint egyértlemű választás elé állít minket hogy válasszuk ki a támék menüpontot. 
+Ezután lenyillík egy legördülő mensüsor. Amint kiválasztjuk az egyik témát,a fenti fejléc nem változik csak a weboldal.
+Az oldal jobb oldalán lévő vagy az egér görgő gombja segítségével lejjeb lehet tekerni.
+Ez által több viccet lehet megtekinteni. Amint meguntuk ezt a témát a vissza gomb segítségével visszaléphetünk a főoldalra.
+Ezután a fejléc továbbra sem változik csak az oldal. Megtalálható egy rólunk menüpont is amely a tervezőket tartalmazza.
+Amennyiben van saját ötletünk ezt megoszthatjuk a fejlesztőkkel.Ezt ugyanúgy a rólunk menüpont alatt lehet megtalálni. Itt szöveges lehetőségünk van leírni az ötletünket illetve jelenteni a talált hibákat. 
+
+### Szerepkörök:Felhasználó
+
+### Rendszerszereplők
+Felhasználó
+
+### Rendszerhasználati esetek és lefutásaik:
+#### Felhasználó:
+
++ képes vicceket olvasni
++ oldalak közötti tetszőleges lépegetés
++ ötlet megosztás
++ hibákat jelenteni
+
+### Menü hierarchiák:
+#### Rólunk:
++ ötletmegosztás
++ hiba bejelentés
+
+#### login:
++ Bejelentkezés
++ Regisztráció
++ Help
+
+#### Témák:
++
++
++
++
++
++
++
++
++
+
+
 ## Fizikai környezet
 
 
-
+## Karbantartási terv
+A weblap folyamatos üzemeltetése és karbantartása, mely
+magában foglalja az esetleges hibák elhárítását, a belső igények változása miatti
+módosításokat, valamint a környezeti feltételek változása miatt
+megfogalmazott program-, illetve állomány módosítási igényeket. 
+Idő elteltével új témákat kell hozzáadni a weblaphoz, hogy fent tartsuk az
+érdeklődési szintet.
+### Karbantartás
+Corrective Maintenance: A felhasználók által felfedezett és "user reportban"
+elküldött hibák kijavítása.
+Adaptive Maintenance: A program naprakészen tartása és finomhangolása.
+Perfective Maintenance: A szoftver hosszútávú használata érdekében végzett
+módosítások, új funkciók, a weboldal teljesítményének és működési
+megbízhatóságának javítása.
+Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem
+tűnnek fontosnak, de később komoly problémákat okozhatnak.
