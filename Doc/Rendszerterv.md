@@ -5,7 +5,7 @@ Rendszerterv
 A rendszer célja egy olyan viccportál (weboldal) létrehozása mely kifejezetten a Debreceni Egyetem Informatikai Kar tanulói és hallgatói számára készül. A hétköznapi egyetemi élet nem egyszerű és sok sokszor rengeteg stresszt jelent egy diák és oktató életében egyaránt. Ezt a stresszt próbáljuk majd csökkenteni a humor segítségével egy viccportálon keresztül. A viccek tematikájukat tekintve informatika, matematika és az egyetem lennének a főtéma.
 Egy könnyen kezelhető főoldal és témaválasztó oldal az alapja, ezekről lehet tovább lépni a viccekhez melyek külön lapon szerepelnek. A viccportál felépítése könnyen átláható, oda-vissza lépés a különböző lapok között. Menüsor készítése a főoldalhoz, illetve a többi laphoz, oldalak közötti navigáció megkönnyítése és lehetővé tevése érdekében. A főoldal egy köszöntő oldal mely tovább vezet a témaválasztó oldalhoz. A témaválasztó oldal hasonlóan épül fel, viszont a tartalmi részén a témák külön megjelenítése és ismertetése van. A témaválasztó oldal segít felhasználónak és informálja őt, hogy merre tud tovább lépni. A témaválasztó oldalról olyan oldalra kerülünk melyek magukat a viccet tartalmazzák. Fontos hogy a weboldal telefonon, számítógépen is egyaránt elérhető legyen és az összes platformon megjelenítés jól nézzen ki és jól használható legyen.
 
-<img src = "diagram.png" alt = "Weboldal felépítése" style ="height: 250px; width:250px"/>
+<img src = "diagram.png" alt = "Weboldal felépítése" style ="height: 250px; width:250px;"/>
 
 # A rendszer nem célja
 
@@ -96,6 +96,36 @@ Minden kategóriához 10 - 20 vicc tartzik.
 + Jól elkülönithetőek legyenek a vicc kategóriák.
 + Lehessen bővíteni a kategóriákat a program átadása után.
 
+## Tesztterv
+------------------------------
+Minden programot tesztelni kell, mivel sohasem lehet tudni mikor mi nem működik úgy ahogy annak kellene.
+Tökéletes kód nem létezik, ezért van szükség tesztelésre.
+A kód írója persze állandóan nézi, hogy amit implementál, az úgy működik-e, ahogy ő azt tervezte, azonban ez szinte soha sem elég.
+Ezért van mindig szükség legalább egy, de inkább több harmadik személyre is, akik kipróbálják a programot, mert ahány ember, annyiféle módon használnak egy alkalmazást.
+Így bukkanhatunk rá olyan hibákra is, amire egyáltalán nem is számítottunk.
+Azonban nem csak hibákat próbálunk keresni teszteléskor, hanem más szempontjából is akarjuk látni, hogy milyen is maga a program.
+Kaphatunk ötleteket, hogy mivel egészítenék ki az eddigi munkát, vagy hogy min változtatnának rajta, mivel szerintük az jobb lenne a felhasználóknak.
+
+A tesztelés fázisai:
+
+* alpha teszt
+* beta teszt
+
+Az alpha teszt legfőképp in-house történik, hogy megnézzük működnek-e az alapfunkciók. Ilyen lehet például:
+
+- elindul-e a program más környezetben/számítógépen
+- működik-e minden gomb
+- egy gomb nyomására az elvárt eredményt kapjuk-e, jelen esetben angol nyelv választásakor angol szavak jelennek-e meg
+
+A beta teszt pedig már lehet nyilvános is, ilyenkor akárki tesztelheti, aki szeretné. Ekkor már rengeteg visszajelzést kaphatunk, lehet az bug report, vagy új ötlet, változtatás az eddigi működésben. Például:
+
+- gombok elhelyezése
+- új gomb funkció
+- más háttér alkalmazása
+
+Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem található a programban, és a mások által feltett és a fejlesztő által elfogadott változtatásokat, újításokat is implementáltuk. Ezután meg is történhet a szoftver első kiadása.
+
+
 ## Funkcionális terv
 
 A funkcionális működést az alábbi képernyő tervekkel szeretném felvázolni.
@@ -130,7 +160,7 @@ Felhasználó
 + Regisztráció
 + Help
 
-#### Témák:
+#### Témák: (késsőb bővülhet)
 +
 +
 +
@@ -161,3 +191,30 @@ módosítások, új funkciók, a weboldal teljesítményének és működési
 megbízhatóságának javítása.
 Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem
 tűnnek fontosnak, de később komoly problémákat okozhatnak.
+
+## Fogalomszótár
+------------------------------
+
+* **Frontend:**
+Frontend-nek számít minden, amit egy weboldalon látsz: funkciók, dizájnelemek, felépítés.
+
+* **Backend:**
+A Backend a háttérben futó folyamatokkal foglalkozik, pl. szerveroldali programozással, űrlapon beküldött adatok feldolgozásával, statisztika készítéssel.
+
+* **HTML:**
+A HTML (angolul: HyperText Markup Language, „hiperszöveges jelölőnyelv”) egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki.
+
+* **CSS:**
+A CSS (Cascading Style Sheets, magyarul: „lépcsőzetes stíluslapok”) a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
+
+* **JavaScript:**
+A JavaScript programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
+
+* **PHP:**
+Egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére. Az első szkriptnyelvek egyike, amely külső fájl használata helyett HTML oldalba ágyazható. A kódot a webszerver PHP feldolgozómodulja értelmezi, ezzel dinamikus weboldalakat hozva létre.
+
+* **MySQL:**
+A MySQL egy többfelhasználós, többszálú, SQL-alapú relációs adatbázis-kezelő szerver. (Viccek tárolását segíti)
+
+* **XAMPP:**
+Egy szabad és nyílt forrású platformfüggetlen webszerver-szoftvercsomag, amelynek legfőbb alkotóelemei az Apache webszerver, a MariaDB adatbázis-kezelő, valamint a PHP és a Perl programozási nyelvek értelmezői.
