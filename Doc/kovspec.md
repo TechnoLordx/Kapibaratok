@@ -28,7 +28,20 @@ Az informatikával, matematikával kapcsolatos viccek segítségével csökkents
 1. Legyen több fül, melyeken belül a viccek külön vannak szedve típus szerint.
 2. A kinézet ne változzon meg egyik oldalon sem, hogy ne kelljen keresni a felhasználónak a már jól megszokott füleket/linkeket.
 
-## Fogalomszótár (bövűlhet)
+# Jelenlegi üzleti folyamatok modellje
+Sajnálatos módon a mai világban az oktatás nem használja ki megfelelő módon a technológiákat arra, hogy a tanulást sokkal szórakoztatóbbá és interaktívabbá tegye ezáltal a diákok sokkal motiválatlanabbak és egyre kevesebb kedvük van tanulni. Ez egyértelműen látszik a mostani diákokon akik már kiskoruk óta használnak valami okos eszközt. Legfőképpen tankönyevből tanulnak mellyek nem interaktívak és legtöbbször csak száraz tényeket tartalmaznak, nem beszélve arról hogy mennyire pazarékolja a papírt illetve ennek az extra költségéről.
+
+# Igényelt üzleti folyamatok modellje
+● Azért hogy megkönnyítsük a diákok és a tanárok
+feladatát, létrehozunk egy weblapot ami a mai kornak megfelelően
+helyt tud állni az elektronikai világban. A rengeteg stressz,szorongás közben könnyedén feloldódhatnak illetve megismerhetik a az adott témához  kapcsolódó vicceket melyekkel érdekesebbé válik. 
+
+# Szabad riport
+Hogyan kéne működni a weblapnak?<br>
+Amint betöltött a weblap rögtön a kezdő oldalt látjuk. Innen kiválaszthatjuk a témák legördülő menüsort, amely tartalmazza a vicc kategóriákat. A vissza gomb segítségével bármikor visszatérhetünk a főoldalra. A login systemmel lehetőségünk van regisztrálni, illetve belépni az oldalra.
+
+-------------
+# Fogalomszótár (bövűlhet)
 
 1. **HTML** : A HTML egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált.
 
