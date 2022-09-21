@@ -7,6 +7,17 @@ A diák élethez hozzá tartozik a folyamatos megfeszített tanulás és figyel�
 A megrendelő szeretné hogy a diákok még motiváltabban tanuljanak, hogy versenytársaihoz képest így jusson piaci illetve némi  személyes előnyre is azáltal hogy az általa tanított tárgyakat a diákok jobban megszeressék. Egy új weblap előállítását rendelte meg,amely növeli a diákok morálját modern módszerekkel. Ez a felület az interneten lesz elérhető mivel a XXI. század megköveteli hogy ezt bárhol bármikor elérhessék ezért diákok. Ez a weblap segítséget fog nyújtani azok számára akiknek nincs elég motivációjuk a tanuláshoz. A diákoknak nagyon tetszett az effajta játékos és különleges lehetőség ezt a tanárok is felisemerték ezért minnél több platformon szeretnék ezt lehetővé tenni.Találtak többet is (pl.:Kahoot), viszont ezek nem tetszettek nekik mivel ez competitiv illetve önállóan nem lehet hatékonyan használni. Ezen okokból kifolyólag
 megkértek minket, hogy csináljuk meg nekik ezt a vágyott weboldalt,ami sokkal könnyebbé teheti számukra az oktatást.
 
+## Jelenlegi elképzelés:
+* Elképzelt kezdőoldal:<br>
+<img src="elkepzeleskezdooldal.png" alt="Használati eset minta" style="height:475px; width:300px;"/>
+
+* Elképzelt kategóriák:<br>
+<img src="elkepzeleskategoriak.png" alt="Használati eset minta" style="height:150px; width:300px;"/>
+
+* Elképzelt Elérhetőség:<br>
+<img src="elkepzeleselerhetoseg.png" alt="Használati eset minta" style="height:200px; width:300px;"/>
+
+
 # A rendszer céljai:
 1. A diákoknak több kedvük legyen a tanuláshoz. Például olyan viccekkel melyek iskolához kapcsolódnak.
 2. Telefonról is el lehet érni, kinézete megfelelő, nem csúszik ki a képernyőről.
