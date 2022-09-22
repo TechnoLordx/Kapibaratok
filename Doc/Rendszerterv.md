@@ -39,6 +39,29 @@ Rendszterv létrehozásának határideje: 2022.09.19
 Projekt tesztelésének határideje:2022.09.26
 A weboldal elkészülésének határideje: 2022.10.03
 
+
+# Elképzelés a weboldal kinézetéről:
+* Elképzelt kezdőoldal:<br>
+<img src="elkepzeleskezdooldal.png" alt="Használati eset minta" style="height:475px; width:300px;"/>
+
+* Elképzelt kategóriák:<br>
+<img src="elkepzeleskategoriak.png" alt="Használati eset minta" style="height:150px; width:300px;"/>
+
+* Elképzelt Elérhetőség:<br>
+<img src="elkepzeleselerhetoseg.png" alt="Használati eset minta" style="height:200px; width:300px;"/>
+
+# Megvalósított weboldal kinézet:
+* Megvalósított kezdőoldal:<br>
+
+
+* Megvalósított kategóriák:<br>
+
+
+
+* Megvalósított Elérhetőség:<br>
+
+
+
 # Mérföldkövek
 
  1. Rendszerterv megalkotása

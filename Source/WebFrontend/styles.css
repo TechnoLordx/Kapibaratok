@@ -5,19 +5,16 @@
     font-family: 'Anton', sans-serif;
 }
 
-html{
-    background-color: #030303;
-}
-
-body{
+body{ /* A navbart leszámítva minden más az oldalon */
     width: 100%;
     min-height: 100vh;
-    background-color: #0c0c0c;
+    background-color: rgb(20, 20, 20);
     -webkit-font-smoothing: antialiased;
-
+    
     font-size: x-large;
     text-align: center;
 }
+
 
 .navbar__container{
     display: flex;
@@ -25,7 +22,100 @@ body{
     height: 80px;
     z-index: 1;
     width: 100%;
-    width: 100%;
+    height: 5em;
     margin: 0 auto;
     padding: 0 50px;
+    background-color: black;
 }
+
+.valasztovonal { /* Választóvonal formázása különböző részek közé */
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    width: 90%;
+    background-color: orange;
+    border-radius: 50%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.elerhetoseg { /* "Elérhetőség - komplett formázás */
+    text-align: center;
+    color: orange;
+}
+
+.elerhetoseg>h1{ /* "Elérhetőség - A felső sor:" szöveg formázása */
+    font-size: xx-large;
+}
+
+.elerhetoseg>h2{ /* "Elérhetőség - A csapat tagjai:" szöveg formázása */
+    font-size: x-large;
+}
+
+.elerhetoseg>h3{ /* Elérhetőség - szöveg formázása (első 2 sort kivéve) */
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.elerhetoseg>table { /* Elérhetőség - Táblázat amiben a képek és a nevek (+"title") vannak */
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 100px;
+    margin-top: 2em;
+}
+
+.nev { /* Elérhetőség - A nevek és az alattuk lévő "title" */
+    font-size: large;
+}
+
+.nev>a:link { /* Elérhetőség - Neveken lévő linkek elrejtése */
+    text-decoration: none;
+    color: orange;
+}
+
+.profpic { /* Elérhetőség - A profilképek megjelenése (kivéve a 4 capybara-s) */
+    width: 9em;
+    height: 9em;
+    border-radius: 50%;
+}
+
+.teamprofpic { /* Elérhetőség - A lenti 4 capybara kép */
+    margin-top: 3em;
+    width: 14em;
+    height: 12em;
+    border-radius: 50%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.kapibaratokemail { /* Elérhetőség - A lenti 4 capybara kép alatti email*/
+    margin-top: 1em;
+    margin-bottom: 5em;
+    font-size: x-large;
+}
+
+.kapibaratokemail>a:link { /* Elérhetőség - A lenti gmail-en lévő link elrejtése */
+    text-decoration: none;
+    color: orange;
+}
+
+
+
+
+
+
