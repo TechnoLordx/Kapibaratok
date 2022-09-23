@@ -89,8 +89,31 @@ A weboldal elkészülésének határideje: 2022.10.03
 + A visszagombra kattintva az eddig betoltött viccek értelem szerűen eltünnek és a főoldal jelenik meg.
 
 ## Absztrakt domain modell
+---
 
-A rendszerünk egy gépből áll, mivel a weboldal csak az adott gépen fut, használ hálózati kapcsolatot, kommunikál lokál szerverrel (xampp).
+Itt írjuk le a megvalósítandó rendszer fogalmait, illetve a
+megvalósítás nagyon magas szintű vázát általában egy-két konkrét példán keresztül.
+
+ Fogalmak melyekkel tisztában kell lennünk:
+---
+
+* **Modell:** Az alkalmazás által kezelt információk tartomány-specifikus ábrázolása.
+
+* **Nézet:** Megjeleníti a modellt egy megfelelő alakban, mely alkalmas a felhasználói interakcióra, jellemzően egy felhasználói felületi elem képében.
+
+* **Vezérlő:** Az eseményeket, jellemzően felhasználói műveleteket dolgozza fel és válaszol rájuk.
+A 3 komponens közül a modell lesz egyenlő az adatbázissal, a nézet a frontend-el és a vezérlő a backend-el.
+
+Így felmerül 3 új szintén fontos fogalom:
+---
+
+* **Adatbázis:** Tárolt adatok összessége.
+
+* **Frontend:** A webalkalmazás azon része, melyet maga a felhasználó lát és interakcióba tud lépni vele.
+
+* **Backend:** A webalkalmazás azon része, mely az adatok feldolgozásáért felel.
+
+[ A rendszerünk egy gépből áll, mivel a weboldal csak az adott gépen fut, használ hálózati kapcsolatot, kommunikál lokál szerverrel (xampp). ]
 
 ## Architektúrális terv
 
