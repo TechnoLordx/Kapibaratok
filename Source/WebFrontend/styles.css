@@ -10,13 +10,22 @@ body{ /* A navbart leszámítva minden más az oldalon */
     min-height: 100vh;
     background-color: rgb(20, 20, 20);
     -webkit-font-smoothing: antialiased;
-    
     font-size: x-large;
     text-align: center;
 }
 
+.navbar{/* az egész menüt tartalmazza*/
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
 
-.navbar__container{
+.navbar__container{ /* az elemek elhelyezkedése*/
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -26,6 +35,86 @@ body{ /* A navbart leszámítva minden más az oldalon */
     margin: 0 auto;
     padding: 0 50px;
     background-color: black;
+}
+
+#nav__logo{ /*ViccHub diszitése*/
+    background-image: linear-gradient(to top, #c88022 0%,#eca02e 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#nav__logo:hover{ /* efektus logohoz*/
+    text-shadow: 0px 0px 5px #e2b34c;
+ }
+
+ .navbar__menu{/* igazitás a menü elemihez */
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.navbar__links{ /* linkek formázása */
+    color: orange;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar__item{ /* elemek elhelyezkedése */
+    height: 80px;
+  }
+
+.navbar__links:hover{ /* efektus a meü elemekhez*/
+    background-image: linear-gradient(to top, #c88022 0%,#f19409 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-shadow: 0px 0px 5px #ffc74f;
+}
+
+.kezdooldal{ /* egyszerü elkülönités és szerkezet kialakítása */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elrendezes{ /* elrendezés */
+    display:grid
+}
+
+.udv{ /* üdvozlő szöveg dekorálása */
+    margin-top: 61px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: orange;
+    text-shadow: 2px 2px 25px #e94016
+}
+
+.udv:hover{  /*efektus az üdvözlő szövegnek*/
+    letter-spacing: 0.2cm;
+    rotate: 360deg;
+}
+
+
+.titok:hover{ /*efektus*/
+    color: orange;
+    text-shadow: 2px 2px 50px #e94016
 }
 
 .valasztovonal { /* Választóvonal formázása különböző részek közé */
@@ -38,17 +127,6 @@ body{ /* A navbart leszámítva minden más az oldalon */
     margin-top: 3em;
     margin-bottom: 3em;
   }
-
-
-
-
-
-
-
-
-
-
-
 
 .elerhetoseg { /* "Elérhetőség - komplett formázás */
     text-align: center;
