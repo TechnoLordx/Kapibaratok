@@ -90,10 +90,11 @@ body{ /* A navbart leszámítva minden más az oldalon */
     color: orange;
     font-size: 50px;
     text-shadow: 2px 2px 50px #e94016;
-    margin-top: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 
 }
-/*{}*/
+
 
 
 .tematabla>a:link { 
@@ -103,8 +104,18 @@ body{ /* A navbart leszámítva minden más az oldalon */
 
 a{
     color: orange;
+
     
    }
+
+a:hover{
+    background-image: linear-gradient(to top, #c88022 0%,#f19409 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-shadow: 0px 0px 5px #ffc74f;
+}
 
 .tematabla{
     text-align: center;
@@ -125,4 +136,50 @@ th, td {
     padding-right: 40px;
   }
 
-  
+
+
+.viccek{
+    color: orange;
+    text-align: center;
+
+}
+
+p{
+    margin: -0.5em;
+
+}
+h3{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+/*
+img.felfele{
+    float: right;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    position: sticky;
+    top: 20px;
+
+}
+
+/*.box {
+    display : flex ;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+    padding-left: 1800px;
+}
+   
+.box .felfele img {
+
+    position: sticky;
+    top: 2rem;
+    width: 100%;
+}   
+
+.box .felfele {
+    flex : 1 1 45rem ;
+}
+*/
