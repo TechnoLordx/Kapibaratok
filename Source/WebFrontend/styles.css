@@ -78,7 +78,7 @@ body{ /* A navbart leszámítva minden más az oldalon */
     height: 80px;
   }
 
-.navbar__links:hover{ /* efektus a meü elemekhez*/
+.navbar__links:hover{ /* effektus a menü elemekhez*/
     background-image: linear-gradient(to top, #c88022 0%,#f19409 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
