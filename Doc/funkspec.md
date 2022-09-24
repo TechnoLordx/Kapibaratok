@@ -20,25 +20,31 @@ megkértek minket, hogy csináljuk meg nekik ezt a vágyott weboldalt,ami sokkal
 * Visszagomb<br>
 
 # A rendszer céljai:
-1. A diákoknak több kedvük legyen a tanuláshoz. Például olyan viccekkel melyek iskolához kapcsolódnak.
-2. Telefonról is el lehet érni, kinézete megfelelő, nem csúszik ki a képernyőről.
-3. Feltűnő és érdekes kinézet.
-4. Tanulás vicces formája (például matematikával kapcsolatos viccek).
-5. Egyszerűség, nem túl bonyolított kezelő felület.
-6. Egy felülről menüvel ellátott főoldal, illetve onnan elérhető oldalak.
-7. Görgetési lehetőség.
-8. A böngésző ablak méretezése során az oldal jól reagáljon és az új paraméterekhez hűen változzon.
-9. A különböző oldalak közötti egyszerű és gyors váltás, az oldal tetején megtalálható menü és visszagomb segítségével.
-10. Az oldalon megjelenő tartalom (viccek) jó tagoltsága, az oldal közepén elhelyezése, jól olvashatóak legyenek.
+* A diákoknak több kedvük legyen a tanuláshoz. Például olyan viccekkel melyek iskolához kapcsolódnak.
+* Telefonról is el lehet érni, kinézete megfelelő, nem csúszik ki a képernyőről.
+* Feltűnő és érdekes kinézet.
+* Tanulás vicces formája (például matematikával kapcsolatos viccek).
+* Egyszerűség, nem túl bonyolított kezelő felület.
+* Egy felülről menüvel ellátott főoldal, illetve onnan elérhető oldalak.
+* A böngésző ablak méretezése során az oldal jól reagáljon és az új paraméterekhez hűen változzon.
+* A különböző oldalak közötti egyszerű és gyors váltás, az oldal tetején megtalálható menü és visszagomb segítségével.
+* Az oldalon megjelenő tartalom (viccek) jó tagoltsága, az oldal közepén elhelyezése, jól olvashatóak legyenek.
 
 # A rendszer nem céljai:
-1. Túl zsúfolt kezelő felelület.
-2. A viccek tartalmilag ne legyenek támadó jellegűek.
-3. Összezavaró menürendszer.
+* Túl zsúfolt kezelő felelület.
+* A viccek tartalmilag ne legyenek bántóak, támadó jellegűek.
+* Összezavaró menürendszer. 
+* Bejelentkezési rendszer.
+* Reklám megjelenítések.
+* Kötelezni a felhasználót további adatok (például : teljes név, e-mail cím) megadására.
+* "Like/Dislike" alapú szavazási rendszer kialakítása a hozzászólások megbízhatóságának megszavazása érdekében.
 
 ## Megrendelői vízió (Vágyálom)
 A mindennapi élet és az informatikához köthető viccek segítségével csökkentsük a feszültséget. Egy könnyen elérhető vicc portál. A célja az lenne, hogy humor segítségével feltöltse az olvasót.
-egy könnyen átlátható, használható rendszer felépítés. A weboldal stíéusos és feltűnő legyen. A gombok jól láthatóak legyenek, legyen jól kítűnő színű, mintázatuk és az oldal főkoncepciójához képest maradjanak összhangban. Az oldal használata közben ha megváltozik a képarány jól alkalmazkodjon hozzá a weboldal, úgy is jól használható maradjon. Törekedni kell az egyszerű de ötletes megoldásokhoz. A weboldal több lapja között való lépegetés könnyen elérhető legyen. A viccportál lapjai között a kinézet valamilyen szinten módosuljon, kisebb változtatások a gombok színe, háttérelemek, betűtípus változzon meg. Interaktív gombok és szövegek használata, melyekhez különböző funkciókat kötünk hozzá, mint például szövegre kattintva tovább irányít egy másik linkre a weboldal.
+Egy könnyen átlátható, használható rendszer felépítés. A weboldal stílusos és feltűnő legyen. A gombok jól láthatóak legyenek, legyen jól kítűnő színű, mintázatuk és az oldal főkoncepciójához képest maradjanak összhangban. Az oldal használata közben ha megváltozik a képarány jól alkalmazkodjon hozzá a weboldal, úgy is jól használható maradjon. Törekedni kell az egyszerű de ötletes megoldásokhoz. A weboldal több lapja között való lépegetés könnyen elérhető legyen. A viccportál lapjai között a kinézet valamilyen szinten módosuljon, kisebb változtatások a gombok színe, háttérelemek, betűtípus változzon meg. Interaktív gombok és szövegek használata, melyekhez különböző funkciókat kötünk hozzá, mint például szövegre kattintva tovább irányít egy másik linkre a weboldal.
+
+<img src = "felepites.png" alt = "Weboldal részletes felépítése" style ="height: 250px; width:250px;"/>
+
 #
 ## Használati esetek
 A használati eset a rendszer és a felhasználók közötti kommunikációt írják le.
