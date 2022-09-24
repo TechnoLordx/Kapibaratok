@@ -22,9 +22,13 @@
 
 ## **Hivatkozások tesztelése**
 
-1. Oldalak :
+### **Elvárás:**
+* A főoldal menüsorában a "Viccek" szóra kattintva átirányítja a felhasználót egy másik oldalra melyen a viccek találhatók. A vicceket tartalmazó weboldalról a menüsor használatával a "Vicces viccek" illetve a "Kezdőoldal" szavakra kattintva visszakerül a felhasználó a főoldalra. A vicceket tartalmazó weboldalon a menüsorban a "Viccek" szóra kattintva az oldal lentebb ugrik a "Vicc téma lehetőségek" felirathoz. A vicceket tartalmazó weboldal "Vicc téma lehetőségek" felirat alatt a vicc kategóriák megnevezéseire kattintva az oldal elnavigál a kiválasztott vicc kategóriához.
 
-2. Hivatkozások :
+### **Teszt:**
+* A linkek működését többször végig próbáltuk különböző eszközökről (pl: számítógép, telefon) minden alkalommal sikeresen működött az összes link.
+
+<img src="teszt_linkek_iranya.png" alt="Linkek iránya">
 
 ---
 
@@ -36,7 +40,7 @@
 * Azaz jobb felső sarokba megjelenik 3 vizszintes vonal amire kattintva megnyílik a legőrdülő menü. Kilépni belőle a vonalakból transzformált "**X**" segítségével lehet és vissza áll az eredeit három vonlas állapotba.
 
 **Teszt :** 
-1. Három vononalas dizájn megjelent. 
+1. Három vonalas dizájn megjelent. 
 
 <img src="aktiv.jpg" alt="Legördülő menü">
 
