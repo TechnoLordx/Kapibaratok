@@ -37,10 +37,12 @@ Egy könnyen kezelhető főoldal és témaválasztó oldal az alapja, ezekről l
 3. Ilés Zoltán - Front-end programozó
 4. Kocsis Olivér - Front-end programozó
 
-* Bezerédi Erik felelős a weboldal mögött futó programok megírása JavaScript nyelven.
+* Bezerédi Erik felelős a weboldal mögött futó programok megírása JavaScript nyelven illetve HTML és CSS megírása is.
 * Vass Bálint felelős a weboldal stílusáért CSS fájlok megírásával.
 * Illés Zoltán felelős a weboldal felépítéséért HTML fájlok megírásával.
 * Kocsis Olivér felelős a weboldal stílusáért CSS fájlok megírásával.
+
+<img src="Fejlesztőkjo.png" alt="Használati eset minta" style="height:200; width:300;"/>
 
 # Ütemterv
 
@@ -142,11 +144,11 @@ A felhasználó az oldalt nem tudja módosítani azaz viccet hozzáadni, viszont
 
 ## Adatbázis terv
 
-Az adattárolás egy adatbázis segítségével valósul meg. Ahhol a ketegóriák szerint tároljuk a vicceket.
+Az adattárolás a weblap segítségével valósul meg. Ahhol a ketegóriák szerint tároljuk a vicceket.
 
-pl: |Programozos| Matek | ...
+pl: |Programozos| Matek | Fa | Fárasztó | Szőkenő | Informatikus | iskola | Autós | Móriczka | Állatos 
 
-és ezen oszlopok tartalmazzák majd a témának megfelelő vicceket. 
+A weblap tartalmazza majd a témának megfelelő vicceket. 
 Minden kategóriához 10 - 20 vicc tartzik.
 
 ## Követelmények
@@ -224,12 +226,12 @@ Felhasználó
 + Móriczka
 + Iskola
 + Fárasztó 
-+ Hallott csecsemős
-+ Rasszista
++ Állatos
++ Fa
 + Informatikus
 + Matek
 
-<img src="Szerkezetkepjo.png" alt="Használati eset minta" style="height:400px; width:600px;"/>
+<img src="diagram2.png" alt="Használati eset minta" style="height:600px; width:600px;"/>
 
 ## Fizikai környezet
 
@@ -262,6 +264,9 @@ megbízhatóságának javítása.
 Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem
 tűnnek fontosnak, de később komoly problémákat okozhatnak.
 
+## Proof of Concept(POCOK)
+Érdemes kifejleszteni a projektet mivel saját magunkból kiindulva is a viccek igazán szórakoztatóvá tették ezt a projektet. Kevés ennyire szórakoztató program létezik amelyik ilyen szinten képes a diákok figyelmét felkelteni.
+ A legtöbb tanagyag tanártól függetenül száraz és unalmas nem is beszélve arról hogy lehetetlen hogy minden diákot érdkelejen minden tantárgy. 
 ## Fogalomszótár
 ------------------------------
 
