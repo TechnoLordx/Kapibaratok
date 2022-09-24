@@ -10,7 +10,7 @@ A DE hallgatói sem különböznek ettől. Jelenlegi helyzet odáig fajult, hogy
 # Megrendelői igényspecifikáció (megrendelő által megfogalmazott igények, célok, követelmények):
 
 ## Megrendelői vízió (Vágyálom)
-Az informatikával, matematikával kapcsolatos viccek segítségével csökkentsük a feszültséget, stresszt és a diákok ki tudjanak kapcsolódni kicsit. Egy könnyen elérhető vicc portál. A célja az lenne, hogy humor segítségével feltöltse és inspárálja az olvasót.<br>
+Az informatikával, matematikával,általános kapcsolatos viccek segítségével csökkentsük a feszültséget, stresszt és a diákok ki tudjanak kapcsolódni kicsit. Egy könnyen elérhető vicc portál. A célja az lenne, hogy humor segítségével feltöltse és inspárálja az olvasót.<br>
 Egy könnyen átlátható, használható rendszer felépítése. A weboldal színes és feltűnő legyen. A gombok jól láthatóak legyenek, legyen eltérő színűk, mintázatuk az oldal főkoncepciójához képest, de maradjanak összhangban. Az oldal használata közben, ha megváltozik a képarány jól alkalmazkodjon hozzá a weboldal, úgy is jól használható maradjon. Törekedni kell az egyszerű, de ötletes megoldásokhoz. A weboldal több lapja között való lépegetés könnyen elérhető legyen. A viccportál lapjai között a kinézet valamilyen szinten módosuljon, kisebb változtatások a gombok színe, háttérelemek, betűtípus változzon meg. Interaktív gombok és szövegek használata, melyekhez különböző funkciókat kötünk hozzá, mint például szövegre kattintva tovább irányít egy másik oldalra link segítségével.
 
 ## Megrendelői cél: 
@@ -27,8 +27,6 @@ Egy könnyen átlátható, használható rendszer felépítése. A weboldal szí
 5. Elérhetőség, hogy a felhasználók tudjanak ötletet megosztani a szerkesztőkkel.
 6. Jól elkülöníthetőek legyenek a vicc kategóriák.
 7. Minden oldalon legyen lehetőség vissza lépni a főoldalra, ezzel is szertnénk hangsúlyozni az **1. pontban foglaltakat**.
-8. Belépési rendszer
-
 
 ## Megrendelői "atomi" igényspecifikáció:
 1. Legyen több fül, melyeken belül a viccek külön vannak szedve típus szerint.
@@ -40,14 +38,12 @@ Egy könnyen átlátható, használható rendszer felépítése. A weboldal szí
 
 # Jelenlegi üzleti folyamatok modellje
 Sajnálatos módon a mai világban az oktatás nem használja ki megfelelő módon a technológiákat arra, hogy a tanulást sokkal szórakoztatóbbá és interaktívabbá tegye, ezáltal a diákok sokkal kevésbé motiváltak és egyre kevesebb kedvük van tanulni. Ez egyértelműen látszik a mostani tanulókon, akik már kiskoruk óta használnak valami okos eszközt. Legfőképpen tankönyevből tanulnak mellyek nem interaktívak és legtöbbször csak száraz tényeket tartalmaznak, nem beszélve arról, hogy mennyire pazarékolják a papírt, illetve ennek az extra költségeiről.
-
 <br>
 
 ------------------------------------------------------
 
 # Igényelt üzleti folyamatok modellje
-● Azért hogy megkönnyítsük a diákok és a tanárok
-feladatát, létrehozunk egy weblapot ami a mai kornak megfelelően
+Azért hogy megkönnyítsük a diákok és a tanárok feladatát, létrehozunk egy weblapot ami a mai kornak megfelelően
 helyt tud állni az elektronikai világban. A rengeteg stressz,szorongás közben könnyedén feloldódhatnak illetve megismerhetik a az adott témához  kapcsolódó vicceket melyekkel érdekesebbé válik. 
 
 <br>
@@ -56,7 +52,15 @@ helyt tud állni az elektronikai világban. A rengeteg stressz,szorongás közbe
 
 # Szabad riport
 Hogyan kéne működni a weblapnak?<br>
-Amint betöltött a weblap rögtön a kezdő oldalt látjuk. Innen kiválaszthatjuk a témák legördülő menüsort, amely tartalmazza a vicc kategóriákat. A vissza gomb segítségével bármikor visszatérhetünk a főoldalra. A login systemmel lehetőségünk van regisztrálni, illetve belépni az oldalra.
+Amint betöltött a weblap rögtön a kezdő oldalt látjuk. Innen kiválaszthatjuk a vicceket ami a megfelelő helyre navigál, amely tartalmazza a vicc kategóriákat. A vissza gomb segítségével bármikor visszatérhetünk a főoldalra. 
+
+# Irányított riport
+ Van lehetőség visszalépésre?<br>
+ Igen, a vissza gomb segítségével.<br>
+ Bárhonnan elérhető?<br>
+ Igen, bármelyik oldalról.<br>
+ A témák jól el vannak különítve?<br>
+ Igen, teljesen jól átlátható.
 
 <br>
 
