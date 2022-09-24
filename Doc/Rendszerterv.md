@@ -26,7 +26,7 @@ A projekten dolgozók listája és feladatai:
 3. Ilés Zoltán - Front-end programozó
 4. Kocsis Olivér - Front-end programozó
 
-Bezerédi Erik felelős a weboldal mögött futó programok megírása JavaScript nyelven.
+Bezerédi Erik felelős a weboldal mögött futó programok megírása illetve CSS és html fájlok megírása.
 Vass Bálint felelős a weboldal stílusáért CSS fájlok megírásával.
 Illés Zoltán felelős a weboldal felépítéséért HTML fájlok megírásával.
 Kocsis Olivér felelős a weboldal stílusáért CSS fájlok megírásával.
@@ -216,8 +216,21 @@ Felhasználó
 + Informatikus
 + Matek
 
+<img src="Szerkezetkepjo.png" alt="Használati eset minta" style="height:400px; width:600px;"/>
+
 ## Fizikai környezet
 
+Visual studio code-ot használtunk.
+
+### File tipusok
++ Css
++ java scripts
++ html
+
+### Kölső szoftverek
+
++ Visual studo code
++ Vercel
 
 ## Karbantartási terv
 A weblap folyamatos üzemeltetése és karbantartása, mely
@@ -262,3 +275,6 @@ A MySQL egy többfelhasználós, többszálú, SQL-alapú relációs adatbázis-
 
 * **XAMPP:**
 Egy szabad és nyílt forrású platformfüggetlen webszerver-szoftvercsomag, amelynek legfőbb alkotóelemei az Apache webszerver, a MariaDB adatbázis-kezelő, valamint a PHP és a Perl programozási nyelvek értelmezői.
+
+* **Vercel:**
+A vercel egy ingyenes statikus weblapmegosztó szolgáltatás.
