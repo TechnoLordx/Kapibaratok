@@ -50,17 +50,24 @@ A weboldal elkészülésének határideje: 2022.10.03
 * Elképzelt Elérhetőség:<br>
 <img src="elkepzeleselerhetoseg.png" alt="Használati eset minta" style="height:200px; width:300px;"/>
 
+* Elképzelt viccoldali elérhetőség:<br>
+<img src="elkepzeleselerhetoseg.png" alt="Használati eset minta" style="height:200px; width:300px;"/>
+
+* Elképzelt viccek:<br>
+<img src="elkepzeleselerhetoseg.png" alt="Használati eset minta" style="height:200px; width:300px;"/>
+
 # Megvalósított weboldal kinézet:
 * Megvalósított kezdőoldal:<br>
 
+<img src="elkepzeleselerhetoseg.png" alt="Használati eset minta" style="height:200px; width:300px;"/>
 
 * Megvalósított kategóriák:<br>
 
-
+<img src="elkepzeleselerhetoseg.png" alt="Használati eset minta" style="height:200px; width:300px;"/>
 
 * Megvalósított Elérhetőség:<br>
 
-
+<img src="elkepzeleselerhetoseg.png" alt="Használati eset minta" style="height:200px; width:300px;"/>
 
 # Mérföldkövek
 
@@ -72,10 +79,9 @@ A weboldal elkészülésének határideje: 2022.10.03
  6. Oldalak összekapcsolása
  7. Interaktív gombok, szövegek hozzáadása
  8. Oldal stílusok megalkotása
- 9. Login system
- 10. Html formázás
- 11. Tesztelés
- 12. Kiadás
+ 9. Html formázás
+ 10. Tesztelés
+ 11. Kiadás
 
 ### Üzleti szereplők
 + A weboldal használói főleg az egytem hallgatói lesznek, de hozzáférése mindenkinek lesz aki rendelkezik internet hozzáféréssel. 
@@ -117,7 +123,7 @@ A 3 komponens közül a modell lesz egyenlő az adatbázissal, a nézet a fronte
 
 ## Architektúrális terv
 
-Ismételten a program helyileg fut, egyszerre összesen csak egy felhasználó tudja használni.
+A weblap egy szerveren fut, amit bárki bármikor elérhet.
  
 A felhasználó az oldalt nem tudja módosítani azaz viccet hozzáadni, viszont a dokumentumok nincsenek titkosítva.
 
@@ -151,9 +157,12 @@ Azonban nem csak hibákat próbálunk keresni teszteléskor, hanem más szempont
 Kaphatunk ötleteket, hogy mivel egészítenék ki az eddigi munkát, vagy hogy min változtatnának rajta, mivel szerintük az jobb lenne a felhasználóknak.
 
 A tesztelés fázisai:
-
+* manuális teszt
+* automatizált teszt
 * alpha teszt
 * beta teszt
+
+A manuális teszt olyan teszt amit személyesen végzünk.
 
 Az alpha teszt legfőképp in-house történik, hogy megnézzük működnek-e az alapfunkciók. Ilyen lehet például:
 
@@ -164,7 +173,7 @@ Az alpha teszt legfőképp in-house történik, hogy megnézzük működnek-e az
 A beta teszt pedig már lehet nyilvános is, ilyenkor akárki tesztelheti, aki szeretné. Ekkor már rengeteg visszajelzést kaphatunk, lehet az bug report, vagy új ötlet, változtatás az eddigi működésben. Például:
 
 - gombok elhelyezése
-- új gomb funkció
+- Reportok fogadása
 - más háttér alkalmazása
 
 Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem található a programban, és a mások által feltett és a fejlesztő által elfogadott változtatásokat, újításokat is implementáltuk. Ezután meg is történhet a szoftver első kiadása.
@@ -172,8 +181,8 @@ Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem találhat�
 
 ## Funkcionális terv
 A funkcionális működést az alábbi képernyő tervekkel szeretném felvázolni. Amint megnyitjuk a weblapot és az betölt egyből a fő oldaltárul elénk amin fel van tüntetve a weboldal neve,
-valamint egyértlemű választás elé állít minket hogy válasszuk ki a témák menüpontot. Ezután lenyillík egy legördülő menüsor. Amint kiválasztjuk az egyik témát,a fenti fejléc nem változik csak a weboldal. Az oldal jobb oldalán lévő vagy az egér görgő gombja segítségével lejjeb lehet tekerni.
-Ez által a teljes oldalt megtekinteni. Amint meguntuk ezt a témát a vissza gomb segítségével visszaléphetünk a főoldalra. Ezután a fejléc továbbra sem változik csak az oldal. Megtalálható egy rólunk menüpont is amely a fejlesztőket tartalmazza. Amennyiben van saját ötletünk ezt megoszthatjuk a fejlesztőkkel. Ezt ugyanúgy a elérhetőség menüpont alatt lehet megtalálni. Itt szöveges lehetőségünk van leírni az ötletünket illetve jelenteni a talált hibákat. Lehetőségünk van regisztrálni, illetve belépni az oldalra.
+valamint egyértlemű választás elé állít minket hogy válasszuk ki a viccek menüpontot. Ezután az oldal a megfelelő helyre navigál minket. Amint kiválasztjuk az egyik témát,a fenti fejléc nem változik csak a weboldal. Az oldal jobb oldalán lévő vagy az egér görgő gombja segítségével lejjeb lehet tekerni.
+Ez által a teljes oldalt megtekinteni. Amint meguntuk ezt a témát a vissza gomb segítségével visszaléphetünk a főoldalra. Ezután a fejléc továbbra sem változik csak az oldal. Megtalálható egy rólunk menüpont is amely a fejlesztőket tartalmazza. Amennyiben van saját ötletünk ezt megoszthatjuk a fejlesztőkkel. Ezt ugyanúgy a elérhetőség menüpont alatt lehet megtalálni. Itt emailen keresztül szöveges lehetőségünk van leírni az ötletünket illetve jelenteni a talált hibákat. 
 
 ### Szerepkörök:Felhasználó
 
@@ -193,22 +202,19 @@ Felhasználó
 + ötletmegosztás
 + hiba bejelentés
 
-#### login:
-+ Bejelentkezés
-+ Regisztráció
-+ Help
+#### Témák: 
 
-#### Témák: (késsőb bővülhet)
-+
-+
-+
-+
-+
-+
-+
-+
-+
-
++ Számítástechnika
++ Sport
++ Autós 
++ Szőkenős 
++ Móriczka
++ Iskola
++ Fárasztó 
++ Hallott csecsemős
++ Rasszista
++ Informatikus
++ Matek
 
 ## Fizikai környezet
 
