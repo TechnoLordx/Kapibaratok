@@ -197,7 +197,7 @@ Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem találhat�
 ## Funkcionális terv
 A funkcionális működést az alábbi képernyő tervekkel szeretném felvázolni. Amint megnyitjuk a weblapot és az betölt egyből a fő oldaltárul elénk amin fel van tüntetve a weboldal neve,
 valamint egyértlemű választás elé állít minket hogy válasszuk ki a viccek menüpontot. Ezután az oldal a megfelelő helyre navigál minket. Amint kiválasztjuk az egyik témát,a fenti fejléc nem változik csak a weboldal. Az oldal jobb oldalán lévő vagy az egér görgő gombja segítségével lejjeb lehet tekerni.
-Ez által a teljes oldalt megtekinteni. Amint meguntuk ezt a témát a vissza gomb segítségével visszaléphetünk a főoldalra. Ezután a fejléc továbbra sem változik csak az oldal. Megtalálható egy rólunk menüpont is amely a fejlesztőket tartalmazza. Amennyiben van saját ötletünk ezt megoszthatjuk a fejlesztőkkel. Ezt ugyanúgy a elérhetőség menüpont alatt lehet megtalálni. Itt emailen keresztül szöveges lehetőségünk van leírni az ötletünket illetve jelenteni a talált hibákat. 
+Ez által a teljes oldalt megtekinteni. Amint meguntuk ezt a témát a vissza gomb segítségével visszaléphetünk a főoldalra. Ezután a fejléc továbbra sem változik csak az oldal. Megtalálható egy rólunk menüpont is amely a fejlesztőket tartalmazza. Amennyiben van saját ötletünk ezt megoszthatjuk a fejlesztőkkel. Ezt ugyanúgy a elérhetőség menüpont alatt lehet megtalálni. Itt emailen keresztül szöveges lehetőségünk van leírni az ötletünket illetve jelenteni a talált hibákat. Az összes oldalon megtalálható egy sticky button "felugró" néven ami az oldal tetejére juttat azonnal.
 
 ### Szerepkörök:Felhasználó
 
@@ -239,7 +239,7 @@ Visual studio code-ot használtunk.
 
 ### File tipusok
 + Css
-+ java scripts
++ java script
 + html
 
 ### Kölső szoftverek
