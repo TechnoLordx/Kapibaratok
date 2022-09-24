@@ -17,7 +17,8 @@ megkértek minket, hogy csináljuk meg nekik ezt a vágyott weboldalt,ami sokkal
 * Elképzelt Elérhetőség:<br>
 <img src="elkepzeleselerhetoseg.png" alt="Használati eset minta" style="height:200px; width:300px;"/>
 
-* Visszagomb<br>
+* Visszagomb(főoldal)<br>
+* Sticky button ami az oldal tetejére visz <br>
 
 # A rendszer céljai:
 * A diákoknak több kedvük legyen a tanuláshoz. Például olyan viccekkel melyek iskolához kapcsolódnak.
@@ -65,7 +66,7 @@ A használati eset a rendszer és a felhasználók közötti kommunikációt ír
                 
 </table>
 
-A felhasználó innen rákattint egy megfelelő vicc témára és az oldal a megfelelő helyre navigálja. Innen egyértelmű módon olvashat vicceket. Majd innen vagy az oldal tetejére lapoz vagy a vissza gomb segítségével újra megismétli a folyamatot. 
+A felhasználó innen rákattint egy megfelelő vicc témára és az oldal a megfelelő helyre navigálja. Innen egyértelmű módon olvashat vicceket. Majd innen vagy az oldal tetejére lapoz vagy a vissza gomb  segítségével újra megismétli a folyamatot. 
 
 ## Megrendelői követelmény:
 1. Könnyen kezelhető felület.
@@ -93,7 +94,7 @@ Itt vannak feltüntetve a vicc témák  amelyeket ki lehet választani, innen a 
 Fontos, hogy mindegyik a megfelelő oldalt töltse be.
 
 2. Fontos hogy átlátható, szellős legyen, különüljenek el egymástól az egyes funkciók. Jól látható és mindenki számára egyértelmű értelmezhető gombok és hivatkozások. 
-**Példa:** Visszalépa gomb 
+**Példa:** Visszalépés gomb
 
 3. Konzisztens legyen, tehát minden oldalon lehetőség szerint hasonló műveleteket hasonló módon kell reagálniuk. Ismételten a vissz gomb példája, csak is vissza léphet nem előre. Megjelenítése meg kell, hogy egyezzen az előző oldalakéval és ez minden eggyes funkcióra ez vonatkozik mind megjelenítés és reakció szempontjából.
 
