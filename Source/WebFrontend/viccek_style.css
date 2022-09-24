@@ -294,3 +294,37 @@ h3{
     text-decoration: underline;
 
 }
+  
+
+.button {
+    
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    border: 3px solid #e2b34c;
+  }
+
+.sticky {
+    display: block;
+    width: 10%;
+    height: 10%;
+  }
+  
+  .left {
+    float:left;
+    left:0;
+  }
+  
+  .right {
+    float:right;
+    right:0;
+  }
+  
+  .mobile-sticky {
+    position: fixed !important;
+    top: 0;
+  }
+  
