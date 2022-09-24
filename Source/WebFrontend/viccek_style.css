@@ -12,7 +12,6 @@ body{ /* A navbart leszámítva minden más az oldalon */
     -webkit-font-smoothing: antialiased;
     font-size: x-large;
     text-align: center;
-    background-color: black;
 }
 
 .navbar{/* az egész menüt tartalmazza*/
@@ -240,10 +239,10 @@ th, td {
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 40px;
-  }
+}
 
   
-  .valasztovonal { /* Választóvonal formázása különböző részek közé */
+.valasztovonal { /* Választóvonal formázása különböző részek közé */
     margin-left: auto;
     margin-right: auto;
     height: 20px;
@@ -252,9 +251,18 @@ th, td {
     border-radius: 50%;
     margin-top: 3em;
     margin-bottom: 3em;
-  }
+}
 
-
+.kicsivalasztovonal { /* Választóvonal formázása különböző részek közé */
+    margin-left: auto;
+    margin-right: auto;
+    height: 8px;
+    width: 10%;
+    background-color: orange;
+    border-radius: 50%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
 
 .viccek{
     color: orange;

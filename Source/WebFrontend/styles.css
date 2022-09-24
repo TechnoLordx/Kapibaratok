@@ -149,7 +149,7 @@ body{ /* A navbart leszámítva minden más az oldalon */
 
     #mobile{
         position: absolute;
-        top: 20%;
+        top: 30%;
         right: 5%;
         transform: translate(5%, 20%);
     }
@@ -246,13 +246,22 @@ body{ /* A navbart leszámítva minden más az oldalon */
     width: 60%;
 }
 
-.elerhetoseg>table { /* Elérhetőség - Táblázat amiben a képek és a nevek (+"title") vannak */
+.tablakezeles>table { /* Elérhetőség - Táblázat amiben a képek és a nevek (+"title") vannak */
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     height: 100px;
     margin-top: 2em;
+}
+
+.tablakezeles {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    width: 100%;
+
 }
 
 .nev { /* Elérhetőség - A nevek és az alattuk lévő "title" */
