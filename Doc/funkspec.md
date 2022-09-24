@@ -20,25 +20,31 @@ megkértek minket, hogy csináljuk meg nekik ezt a vágyott weboldalt,ami sokkal
 * Visszagomb<br>
 
 # A rendszer céljai:
-1. A diákoknak több kedvük legyen a tanuláshoz. Például olyan viccekkel melyek iskolához kapcsolódnak.
-2. Telefonról is el lehet érni, kinézete megfelelő, nem csúszik ki a képernyőről.
-3. Feltűnő és érdekes kinézet.
-4. Tanulás vicces formája (például matematikával kapcsolatos viccek).
-5. Egyszerűség, nem túl bonyolított kezelő felület.
-6. Egy felülről menüvel ellátott főoldal, illetve onnan elérhető oldalak.
-7. Görgetési lehetőség.
-8. A böngésző ablak méretezése során az oldal jól reagáljon és az új paraméterekhez hűen változzon.
-9. A különböző oldalak közötti egyszerű és gyors váltás, az oldal tetején megtalálható menü és visszagomb segítségével.
-10. Az oldalon megjelenő tartalom (viccek) jó tagoltsága, az oldal közepén elhelyezése, jól olvashatóak legyenek.
+* A diákoknak több kedvük legyen a tanuláshoz. Például olyan viccekkel melyek iskolához kapcsolódnak.
+* Telefonról is el lehet érni, kinézete megfelelő, nem csúszik ki a képernyőről.
+* Feltűnő és érdekes kinézet.
+* Tanulás vicces formája (például matematikával kapcsolatos viccek).
+* Egyszerűség, nem túl bonyolított kezelő felület.
+* Egy felülről menüvel ellátott főoldal, illetve onnan elérhető oldalak.
+* A böngésző ablak méretezése során az oldal jól reagáljon és az új paraméterekhez hűen változzon.
+* A különböző oldalak közötti egyszerű és gyors váltás, az oldal tetején megtalálható menü és visszagomb segítségével.
+* Az oldalon megjelenő tartalom (viccek) jó tagoltsága, az oldal közepén elhelyezése, jól olvashatóak legyenek.
 
 # A rendszer nem céljai:
-1. Túl zsúfolt kezelő felelület.
-2. A viccek tartalmilag ne legyenek támadó jellegűek.
-3. Összezavaró menürendszer.
+* Túl zsúfolt kezelő felelület.
+* A viccek tartalmilag ne legyenek bántóak, támadó jellegűek.
+* Összezavaró menürendszer. 
+* Bejelentkezési rendszer.
+* Reklám megjelenítések.
+* Kötelezni a felhasználót további adatok (például : teljes név, e-mail cím) megadására.
+* "Like/Dislike" alapú szavazási rendszer kialakítása a hozzászólások megbízhatóságának megszavazása érdekében.
 
 ## Megrendelői vízió (Vágyálom)
 A mindennapi élet és az informatikához köthető viccek segítségével csökkentsük a feszültséget. Egy könnyen elérhető vicc portál. A célja az lenne, hogy humor segítségével feltöltse az olvasót.
-egy könnyen átlátható, használható rendszer felépítés. A weboldal stíéusos és feltűnő legyen. A gombok jól láthatóak legyenek, legyen jól kítűnő színű, mintázatuk és az oldal főkoncepciójához képest maradjanak összhangban. Az oldal használata közben ha megváltozik a képarány jól alkalmazkodjon hozzá a weboldal, úgy is jól használható maradjon. Törekedni kell az egyszerű de ötletes megoldásokhoz. A weboldal több lapja között való lépegetés könnyen elérhető legyen. A viccportál lapjai között a kinézet valamilyen szinten módosuljon, kisebb változtatások a gombok színe, háttérelemek, betűtípus változzon meg. Interaktív gombok és szövegek használata, melyekhez különböző funkciókat kötünk hozzá, mint például szövegre kattintva tovább irányít egy másik linkre a weboldal.
+Egy könnyen átlátható, használható rendszer felépítés. A weboldal stílusos és feltűnő legyen. A gombok jól láthatóak legyenek, legyen jól kítűnő színű, mintázatuk és az oldal főkoncepciójához képest maradjanak összhangban. Az oldal használata közben ha megváltozik a képarány jól alkalmazkodjon hozzá a weboldal, úgy is jól használható maradjon. Törekedni kell az egyszerű de ötletes megoldásokhoz. A weboldal több lapja között való lépegetés könnyen elérhető legyen. A viccportál lapjai között a kinézet valamilyen szinten módosuljon, kisebb változtatások a gombok színe, háttérelemek, betűtípus változzon meg. Interaktív gombok és szövegek használata, melyekhez különböző funkciókat kötünk hozzá, mint például szövegre kattintva tovább irányít egy másik linkre a weboldal.
+
+<img src = "felepites.png" alt = "Weboldal részletes felépítése" style ="height: 250px; width:250px;"/>
+
 #
 ## Használati esetek
 A használati eset a rendszer és a felhasználók közötti kommunikációt írják le.
@@ -105,12 +111,12 @@ Fontos, hogy mindegyik a megfelelő oldalt töltse be.
 
     Ez egy legendás történet Ezékiel-ről szól a hirhedt informatikusról. Hirhedt 50kg-ja, zsírpacás kockás ingjét és 
     szandál papucsát mindenki ismerte és félte. Kivillanó fogszabályzója és négyzetes szemüvege minden nőt rögtön elcsábított. Eggyik nap egy tanár lépett hozzá, az IK kedvence Mr. Jegemszkij Petrik. Rengeteg beceneve volt: majd jövőre, maximum kettes. Mindenki szerette. Osztályzását és számon kérését mindenki ismerte. A diákok főként azért szerették, mert ő nem kínozta a diákokat öt jegy lehetőséggel... csak kettővel.
-    Nem is kellet neki több, kapott a lehetőségen és főhősünknek adott egy lehetőséget. Ilyen lehetőséget nem illik visszautasítani
-    és kapott is egy 700 oldalas dokumentumot hogy tanulja meg. Ezékielnek hamar elment a kedve érezte hogy itt a vég. De akkor megtalált egy vicc portált. Amint megnyitotta a design szinte már erőtt adott neki, de sajnos a feladat túl nagy nagy falat volt így is.
-    Amint rávitte a viccek menüre a hatalmas gigászi bizánci méretű kis egeret, meglepődve látta, hogy mennyi téma van nem is beszélve a legördülő menüsorról.
-    Nem is habozott. Kiválasztotta a matematikai vicceket, de olyan jók voltak, hogy a rábízott feladat már nem is "számított" annyira fellelkesült. Az a 700 oldal rögtön elrepült. Olyan dolog történt, ami még soha, négyest kapott. Amikor a többi hiéna ezt megtudta és legnyagobb szükségük volt rá, ő eltűnt. Azóta se került elő, de a tudást hátra hagyta.
+    Nem is kellet neki több,színtiszta jószívüségből adot főhősünknek egy lehetőséget. Ilyen lehetőséget nem illik visszautasítani
+    és kapott is egy 700 oldalas dokumentumot hogy tanulja meg. Neki is láttot minél hamarabb. Ezékielnek hamar elment a kedve érezte hogy itt a vég. De akkor megtalált egy vicc portált. Amint megnyitotta a design szinte már erőtt adott neki, de sajnos a feladat túl nagy nagy falat volt így is.
+    Amint rávitte a viccek menüre a hatalmas gigászi bizánci méretű kis egeret, meglepődve látta, hogy mennyi téma van nem is beszélve a az oldalon történő navigáláskról.
+    Nem is habozott. Kiválasztotta a matematikai vicceket, de olyan jók voltak, hogy a rábízott feladat már nem is "számított" annyira jók voltak. Az a 700 oldal rögtön elrepült. Olyan dolog történt, ami még soha, négyest kapott. Amikor a többi diák ezt megtudta és legnyagobb szükségük volt rá, ő eltűnt. Azóta se került elő, de a tudást hátra hagyta.
     Annyira hálás volt, hogy tudni akarta kik ezek a maszkos hősök. Megtalálta a szerény hősöket elérhetőség menüpont alatt.
-    Fel is vette velük a kapcsolatot, hogy valamiféleképpen meghálálja. Végül saját ötletekkel is támogatta ezt a tökéletes weboldalt.
+    Fel is vette velük a kapcsolatot emailen keresztül, hogy valamiféleképpen meghálálja. Végül saját ötletekkel is támogatta ezt a tökéletes weboldalt.
     Vajon ő is hőssé vált? Sose derül ki mostmár!
 
 ## Fogalomszótár

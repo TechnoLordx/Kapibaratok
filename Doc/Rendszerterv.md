@@ -1,43 +1,56 @@
 Rendszerterv
 
 # A rendszer célja
-
-A rendszer célja egy olyan viccportál (weboldal) létrehozása mely kifejezetten a Debreceni Egyetem Informatikai Kar tanulói és hallgatói számára készül. A hétköznapi egyetemi élet nem egyszerű és sok sokszor rengeteg stresszt jelent egy diák és oktató életében egyaránt. Ezt a stresszt próbáljuk majd csökkenteni a humor segítségével egy viccportálon keresztül. A viccek tematikájukat tekintve informatika, matematika és az egyetem lennének a főtéma.
-Egy könnyen kezelhető főoldal és témaválasztó oldal az alapja, ezekről lehet tovább lépni a viccekhez melyek külön lapon szerepelnek. A viccportál felépítése könnyen átláható, oda-vissza lépés a különböző lapok között. Menüsor készítése a főoldalhoz, illetve a többi laphoz, oldalak közötti navigáció megkönnyítése és lehetővé tevése érdekében. A főoldal egy köszöntő oldal mely tovább vezet a témaválasztó oldalhoz. A témaválasztó oldal hasonlóan épül fel, viszont a tartalmi részén a témák külön megjelenítése és ismertetése van. A témaválasztó oldal segít felhasználónak és informálja őt, hogy merre tud tovább lépni. A témaválasztó oldalról olyan oldalra kerülünk melyek magukat a viccet tartalmazzák. Fontos hogy a weboldal telefonon, számítógépen is egyaránt elérhető legyen és az összes platformon megjelenítés jól nézzen ki és jól használható legyen.
+* Vicc kategóriákra elkülönítése.
+* Az oldalak között könnyű navigáció, menüsor segítségével.
+* Az oldal átméretezése során, az oldal tartalma változzon úgy hogy, jól olvasható maradjon.
+* Interaktív szöveg és gombok segítsék a felhasználót.
+* Az oldal készítőinek elérhetőségeit feltüntetni.
+* Jól olvasható szöveg, jól elkülönített tartalom.
+* Jó viccek és szórakoztató tartalom.
+* Feltűnő és érdekes kinézet.
 
 <img src = "diagram.png" alt = "Weboldal felépítése" style ="height: 250px; width:250px;"/>
 
 # A rendszer nem célja
 
-1. Túl zsúfolt kezelő felelület.
-2. A viccek tartalmilag ne legyenek bántóak, támadó jellegűek.
-3. Összezavaró menürendszer. 
-4. Bejelentkezési rendszer.
-5. Reklám megjelenítések.
-6. Elérhetőség.
+* Túl zsúfolt kezelő felelület.
+* A viccek tartalmilag ne legyenek bántóak, támadó jellegűek.
+* Összezavaró menürendszer. 
+* Bejelentkezési rendszer.
+* Reklám megjelenítések.
+* Kötelezni a felhasználót további adatok (például : teljes név, e-mail cím) megadására.
+* "Like/Dislike" alapú szavazási rendszer kialakítása a hozzászólások megbízhatóságának megszavazása érdekében.
 
 
 # Projekt terv
 
-A projekten dolgozók listája és feladatai:
+A rendszer célja egy olyan viccportál (weboldal) létrehozása mely kifejezetten a Debreceni Egyetem Informatikai Kar tanulói és hallgatói számára készül. A hétköznapi egyetemi élet nem egyszerű és sok sokszor rengeteg stresszt jelent egy diák és oktató életében egyaránt. Ezt a stresszt próbáljuk majd csökkenteni a humor segítségével egy viccportálon keresztül. A viccek tematikájukat tekintve informatika, matematika és az egyetem lennének a főtéma.
+Egy könnyen kezelhető főoldal és témaválasztó oldal az alapja, ezekről lehet tovább lépni a viccekhez melyek külön lapon szerepelnek. A viccportál felépítése könnyen átláható, oda-vissza lépés a különböző lapok között. Menüsor készítése a főoldalhoz, illetve a többi laphoz, oldalak közötti navigáció megkönnyítése és lehetővé tevése érdekében. A főoldal egy köszöntő oldal mely tovább vezet a témaválasztó oldalhoz. A témaválasztó oldal hasonlóan épül fel, viszont a tartalmi részén a témák külön megjelenítése és ismertetése van. A témaválasztó oldal segít felhasználónak és informálja őt, hogy merre tud tovább lépni. A témaválasztó oldalról olyan oldalra kerülünk melyek magukat a viccet tartalmazzák. Fontos hogy a weboldal telefonon, számítógépen is egyaránt elérhető legyen és az összes platformon megjelenítés jól nézzen ki és jól használható legyen.
+
+<img src = "felepites.png" alt = "Weboldal részletes felépítése" style ="height: 250px; width:250px;"/>
+
+# A projekten dolgozók listája és feladatai:
 
 1. Bezerédi Erik - FullStack programozó
 2. Vass Bálint - Front-end programozó
 3. Ilés Zoltán - Front-end programozó
 4. Kocsis Olivér - Front-end programozó
 
-Bezerédi Erik felelős a weboldal mögött futó programok megírása illetve CSS és html fájlok megírása.
-Vass Bálint felelős a weboldal stílusáért CSS fájlok megírásával.
-Illés Zoltán felelős a weboldal felépítéséért HTML fájlok megírásával.
-Kocsis Olivér felelős a weboldal stílusáért CSS fájlok megírásával.
+* Bezerédi Erik felelős a weboldal mögött futó programok megírása JavaScript nyelven illetve HTML és CSS megírása is.
+* Vass Bálint felelős a weboldal stílusáért CSS fájlok megírásával.
+* Illés Zoltán felelős a weboldal felépítéséért HTML fájlok megírásával.
+* Kocsis Olivér felelős a weboldal stílusáért CSS fájlok megírásával.
+
+<img src="Fejlesztőkjo.png" alt="Használati eset minta" style="height:200; width:300;"/>
 
 # Ütemterv
 
-Követelmény specifikáció létrehozásának határideje: 2022.09.12
-Funkcionális specifikáció létrehozásának határideje: 2022.09.12
-Rendszterv létrehozásának határideje: 2022.09.19
-Projekt tesztelésének határideje:2022.09.26
-A weboldal elkészülésének határideje: 2022.10.03
+* Követelmény specifikáció létrehozásának határideje: 2022.09.12
+* Funkcionális specifikáció létrehozásának határideje: 2022.09.12
+* Rendszterv létrehozásának határideje: 2022.09.19
+* Projekt tesztelésének határideje:2022.09.26
+* A weboldal elkészülésének határideje: 2022.09.26
 
 
 # Elképzelés a weboldal kinézetéről:
@@ -71,17 +84,19 @@ A weboldal elkészülésének határideje: 2022.10.03
 
 # Mérföldkövek
 
- 1. Rendszerterv megalkotása
- 2. A főoldal létrehozása
- 3. Témaválasztó létrehozása
- 4. Vicceket tartalmazó oldalak létrhozása
- 5. Menüsor kialakítása
- 6. Oldalak összekapcsolása
- 7. Interaktív gombok, szövegek hozzáadása
- 8. Oldal stílusok megalkotása
- 9. Html formázás
- 10. Tesztelés
- 11. Kiadás
+  1. Funkcionális specifikáció és követelmény specifikáció létrehozása
+  2. Rendszerterv megalkotása
+  3. A főoldal létrehozása
+  4. Főoldal megformázása, és stílus megalkotása
+  5. Elérhetőség hozzáadása a főoldalhoz
+  6. Vicceket tartalmazó oldal létrhozása
+  7. Viccek összeírása, és feltétele az oldalra
+  8. Vicceket tartalmazó oldal stílusának létrehozása
+  9. Menüsor kialakítása
+  10. Oldalak összekapcsolása, menüsor használatával
+  11. Interaktív gombok, szövegek hozzáadása
+  12. Tesztelés
+  13. Bemutatás
 
 ### Üzleti szereplők
 + A weboldal használói főleg az egytem hallgatói lesznek, de hozzáférése mindenkinek lesz aki rendelkezik internet hozzáféréssel. 
@@ -129,11 +144,11 @@ A felhasználó az oldalt nem tudja módosítani azaz viccet hozzáadni, viszont
 
 ## Adatbázis terv
 
-Az adattárolás egy adatbázis segítségével valósul meg. Ahhol a ketegóriák szerint tároljuk a vicceket.
+Az adattárolás a weblap segítségével valósul meg. Ahhol a ketegóriák szerint tároljuk a vicceket.
 
-pl: |Programozos| Matek | ...
+pl: |Programozos| Matek | Fa | Fárasztó | Szőkenő | Informatikus | iskola | Autós | Móriczka | Állatos 
 
-és ezen oszlopok tartalmazzák majd a témának megfelelő vicceket. 
+A weblap tartalmazza majd a témának megfelelő vicceket. 
 Minden kategóriához 10 - 20 vicc tartzik.
 
 ## Követelmények
@@ -211,12 +226,12 @@ Felhasználó
 + Móriczka
 + Iskola
 + Fárasztó 
-+ Hallott csecsemős
-+ Rasszista
++ Állatos
++ Fa
 + Informatikus
 + Matek
 
-<img src="Szerkezetkepjo.png" alt="Használati eset minta" style="height:400px; width:600px;"/>
+<img src="diagram2.png" alt="Használati eset minta" style="height:600px; width:600px;"/>
 
 ## Fizikai környezet
 
@@ -249,6 +264,9 @@ megbízhatóságának javítása.
 Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem
 tűnnek fontosnak, de később komoly problémákat okozhatnak.
 
+## Proof of Concept(POCOK)
+Érdemes kifejleszteni a projektet mivel saját magunkból kiindulva is a viccek igazán szórakoztatóvá tették ezt a projektet. Kevés ennyire szórakoztató program létezik amelyik ilyen szinten képes a diákok figyelmét felkelteni.
+ A legtöbb tanagyag tanártól függetenül száraz és unalmas nem is beszélve arról hogy lehetetlen hogy minden diákot érdkelejen minden tantárgy. 
 ## Fogalomszótár
 ------------------------------
 
