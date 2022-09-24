@@ -188,11 +188,16 @@ body{ /* A navbart leszámítva minden más az oldalon */
     color: orange;
     font-size: 50px;
     text-shadow: 2px 2px 50px #e94016;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 
 }
 
+.címsor:hover{  /*efektus az üdvözlő szövegnek*/
+    letter-spacing: 0.25cm;
+    rotate: 360deg;
+    text-decoration: underline;
+}
 
 
 .tematabla>a:link { 
@@ -217,6 +222,9 @@ a:hover{
 
 .tematabla{
     text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 table{
@@ -234,6 +242,18 @@ th, td {
     padding-right: 40px;
   }
 
+  
+  .valasztovonal { /* Választóvonal formázása különböző részek közé */
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    width: 90%;
+    background-color: orange;
+    border-radius: 50%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
 
 
 .viccek{
@@ -247,37 +267,22 @@ p{
 
 }
 h3{
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-}
-
-/*
-img.felfele{
-    float: right;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    position: sticky;
-    top: 20px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-family: "Times New Roman", Times, serif;
 
 }
 
-/*.box {
-    display : flex ;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 4px;
-    padding-left: 1800px;
-}
-   
-.box .felfele img {
 
-    position: sticky;
-    top: 2rem;
-    width: 100%;
-}   
+.temanevek{
+    font-size: 35px;
+    color:#e2b34c;
 
-.box .felfele {
-    flex : 1 1 45rem ;
+
 }
-*/
+
+.temanevek:hover{
+
+    text-decoration: underline;
+
+}
