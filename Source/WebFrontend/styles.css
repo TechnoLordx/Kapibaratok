@@ -346,6 +346,7 @@ th, td {
     text-align: center;
     position: fixed;
     color: #e2b34c;
+    text-decoration: none;
     right: 1%;
     bottom: 5%;
     border: 3px solid #e2b34c;
@@ -372,3 +373,38 @@ th, td {
     top: 0;
   }
   
+
+
+  
+  .vissza {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    color: #e2b34c;
+    size: 5%;
+    text-decoration: none;
+    right: 1%;
+    bottom: 15%;
+    border: 3px solid#e2b34c;
+  }
+  
+  .sticky2 {
+    display: block;
+    width: 49%;
+  }
+  
+  .left2 {
+    float:left;
+    left:0;
+  }
+  
+  .right2 {
+    float:right;
+    right:0;
+  }
+  
+  .mobile-sticky2 {
+    position: fixed !important;
+    top: 0;
+  }

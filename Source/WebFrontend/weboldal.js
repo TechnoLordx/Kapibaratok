@@ -19,10 +19,40 @@ function sticky_relocate_right() {
 }
 
 $(function () {
-  (window).addEventListener("touchmove", sticky_relocate_right, false);
+  //(window).addEventListener("touchmove", sticky_relocate_right, false);
+  setTimeout($(window).scroll(sticky_relocate_left),0);
+  $(window).scroll(sticky_relocate_right);
+  sticky_relocate_left();
+  sticky_relocate_right();
+})
+//end sticky button
+
+function sticky_relocate_left() {
+    var window_top3 = $(window).scrollTop();
+    var div_top3 = $('#sticky-anchor2').offset().top;
+    if (window_top3 > div_top3) {
+        $('.left2').addClass('mobile-sticky2');
+    } else {
+        $('.left2').removeClass('mobile-sticky2');
+    }
+}
+
+function sticky_relocate_right() {
+    var window_top4 = $(window).scrollTop();
+    var div_top5 = $('#sticky-anchor2').offset().top;
+    if (window_top4 > div_top5) {
+        $('.right2').addClass('mobile-sticky2');
+    } else {
+        $('.right2').removeClass('mobile-sticky2');
+    }
+}
+
+$(function () {
+  //$(window).addEventListener("touchmove", sticky_relocate_right, false);
   setTimeout($(window).scroll(sticky_relocate_left),0);
   $(window).scroll(sticky_relocate_right);
   sticky_relocate_left();
   sticky_relocate_right();
 });
 //end sticky button
+
