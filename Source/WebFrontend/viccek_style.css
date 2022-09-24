@@ -12,6 +12,7 @@ body{ /* A navbart leszámítva minden más az oldalon */
     -webkit-font-smoothing: antialiased;
     font-size: x-large;
     text-align: center;
+    background-color: black;
 }
 
 .navbar{/* az egész menüt tartalmazza*/
@@ -114,8 +115,8 @@ body{ /* A navbart leszámítva minden más az oldalon */
     }
 /* triggered by javascript */
     .navbar__menu.active{
-        background: #030303;
-        top: 100%;
+        background: black;
+        top: 10%;
         opacity: 1;
         transition: all 0.5s ease; /* */
         z-index: 99;
@@ -147,7 +148,7 @@ body{ /* A navbart leszámítva minden más az oldalon */
 
     #mobile{
         position: absolute;
-        top: 20%;
+        top: 4.5%;
         right: 5%;
         transform: translate(5%, 20%);
     }
