@@ -61,5 +61,14 @@
  <br>
 
 2.A tetejére visz kiválóan működik:PC <br>
-<img src="fentjo.png" alt="Oldal teteje" width=600px height=300px>
-* **Tesztelt ezkoözök : PC**
+<img src="alap.png" alt="Oldal teteje" width=800px height=300px >
+
+
+Iphone-on tökéletesen működik:Iphone <br>
+<img src="iphone.png" alt="Oldal teteje" width=384px height=876px> 
+
+
+Androidon tökéletesen működik<br>
+<img src="android.png" alt="Oldal teteje" width=384px height=876px> 
+
+* **Tesztelt ezkoözök : PC , iPhone SE, iPhone 12, iPad Air, Samsung Galaxy S8+**
