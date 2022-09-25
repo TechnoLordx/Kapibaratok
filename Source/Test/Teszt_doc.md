@@ -47,3 +47,7 @@
 2. Kattintásra müködött.
 
 <img src="lenyilo.jpg" alt="Legördülő menü">
+
+* A böngésző vizsgálat gombja segítségével lett tesztelve
+* Ezen belül is a Dimensions kategoriába tobb eszközön is tesztelt.
+* **Tesztelt ezkoözök : PC , iPhone SE, iPhone 12, iPad Air, Samsung Galaxy S8+**

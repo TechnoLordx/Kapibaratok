@@ -22,6 +22,7 @@ body{ /* A navbart leszámítva minden más az oldalon */
     font-size: 20px;
     top: 0;
     z-index: 999;
+    background-color: black;
 }
 
 .navbar__container{ /* az elemek elhelyezkedése*/

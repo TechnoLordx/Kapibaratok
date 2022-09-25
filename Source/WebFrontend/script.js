@@ -1,11 +1,3 @@
-const menu = document.querySelector('#mobile');
-const elementOfMenu = document.querySelector('.navbar__menu');
-
-menu.addEventListener('click', function() {
-    menu.classList.toggle('is-active');
-    elementOfMenu.classList.toggle('active');
-    }
-)
 function sticky_relocate_left() {
     var window_top = $(window).scrollTop();
     var div_top = $('#sticky-anchor').offset().top;
