@@ -288,8 +288,8 @@ body{ /* A navbart leszámítva minden más az oldalon */
         height: 6em;
     }
     .profpic { /* Elérhetőség - A profilképek megjelenése (kivéve a 4 capybara-s) */
-        width: 5em;
-        height: 5em;
+        width: 3em;
+        height: 3em;
         border-radius: 50%;
     }
 }
