@@ -157,14 +157,7 @@ body{ /* A navbart leszámítva minden más az oldalon */
         padding-bottom: 2rem;
     }
 
-    .button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-        height: 30%;
-        margin: 0;
-    }
+    
 
     .navbar__change .line{
         display: block;
@@ -297,15 +290,18 @@ h3{
 }
   
 
-.button {
+.button3 {
     
     background-color: black;
     padding: 10px;
     text-align: center;
-    position: fixed;
+    position:fixed;
+    color: #e2b34c;
+    size: 5%;
+    text-decoration: none;
     right: 1%;
     bottom: 5%;
-    border: 3px solid #e2b34c;
+    border: 3px solid#e2b34c;
   }
 
 .sticky {
@@ -333,18 +329,19 @@ h3{
     background-color: black;
     padding: 10px;
     text-align: center;
-    position: fixed;
+    position:fixed;
     color: #e2b34c;
     size: 5%;
     text-decoration: none;
     right: 1%;
-    bottom: 15%;
+    bottom: 20%;
     border: 3px solid#e2b34c;
   }
   
   .sticky2 {
     display: block;
-    width: 49%;
+    width: 10%;
+    height: 10%;
   }
   
   .left2 {
