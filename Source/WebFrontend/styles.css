@@ -281,6 +281,20 @@ body{ /* A navbart leszámítva minden más az oldalon */
     padding-right: 1em;
 }
 
+
+@media screen and (max-width: 800px){
+    .teamprofpic { /* Elérhetőség - A lenti 4 capybara kép */
+        width: 7em;
+        height: 6em;
+    }
+    .profpic { /* Elérhetőség - A profilképek megjelenése (kivéve a 4 capybara-s) */
+        width: 5em;
+        height: 5em;
+        border-radius: 50%;
+    }
+}
+
+
 .kapibaratokemail { /* Elérhetőség - A lenti 4 capybara kép alatti email*/
     margin-top: 1em;
     margin-bottom: 5em;
@@ -318,7 +332,7 @@ a{
     font-size: 30px;
 }
 
-table{
+.erikkategoriatabla{
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
@@ -326,12 +340,14 @@ table{
 
 }
 
-th, td {
+.erikkategoriatabla>th, td {
     padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 40px;
 }
+
+
 a.button {
     
     background-color: black;
