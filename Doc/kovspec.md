@@ -1,7 +1,7 @@
 # Miért esett erre a döntés:
 
-A diák élethez hozzá tartozik a folyamatos megfeszített tanulás és figyelés, viszont minden embernek szüksége van a kikapcsolódásra, és a humorra.<br>
-A DE hallgatói sem különböznek ettől. Jelenlegi helyzet odáig fajult, hogy a diákok kezdik elveszteni a tanulás felé mutatott érdeklődésüket. Egy olyan megoldásra van szükségünk amely gyorsan, mindenki számára elérhető. Egy vicc portál létrehozása javíthatna a tanulók morálján. Mivel az Egyetem a teljes területén lehetőséget biztosít az internethez való csatlakozáshoz (eduroam), ezért egy webes felület megfelelne erre a célra. Úgy gondoljuk ezek a lépések nagyban elősegítik a halgatók produktív munkáját.
+A diákélethez hozzátartozik a folyamatos megfeszített tanulás és figyelés, viszont minden embernek szüksége van a kikapcsolódásra, és a humorra.<br>
+A DE hallgatói sem különböznek ettől. Jelenlegi helyzet odáig fajult, hogy a diákok kezdik elveszteni a tanulás felé mutatott érdeklődésüket. Egy olyan megoldásra van szükségünk amely gyorsan, mindenki számára elérhető. Egy viccportál létrehozása javíthatna a tanulók morálján. Mivel az Egyetem a teljes területén lehetőséget biztosít az internethez való csatlakozáshoz (eduroam), ezért egy webes felület megfelelne erre a célra. Úgy gondoljuk ezek a lépések nagyban elősegítik a halgatók produktív munkáját.
 
 <br>
 
@@ -10,8 +10,8 @@ A DE hallgatói sem különböznek ettől. Jelenlegi helyzet odáig fajult, hogy
 # Megrendelői igényspecifikáció (megrendelő által megfogalmazott igények, célok, követelmények):
 
 ## Megrendelői vízió (Vágyálom)
-Az informatikával, matematikával,általános kapcsolatos viccek segítségével csökkentsük a feszültséget, stresszt és a diákok ki tudjanak kapcsolódni kicsit. Egy könnyen elérhető vicc portál. A célja az lenne, hogy humor segítségével feltöltse és inspárálja az olvasót.<br>
-Egy könnyen átlátható, használható rendszer felépítése. A weboldal színes és feltűnő legyen. A gombok jól láthatóak legyenek, legyen eltérő színűk, mintázatuk az oldal főkoncepciójához képest, de maradjanak összhangban. Az oldal használata közben, ha megváltozik a képarány jól alkalmazkodjon hozzá a weboldal, úgy is jól használható maradjon. Törekedni kell az egyszerű, de ötletes megoldásokhoz. A weboldal több lapja között való lépegetés könnyen elérhető legyen. A viccportál lapjai között a kinézet valamilyen szinten módosuljon, kisebb változtatások a gombok színe, háttérelemek, betűtípus változzon meg. Interaktív gombok és szövegek használata, melyekhez különböző funkciókat kötünk hozzá, mint például szövegre kattintva tovább irányít egy másik oldalra link segítségével.
+Az informatikával, matematikával,általános kapcsolatos viccek segítségével csökkentsük a feszültséget, stresszt és a diákok ki tudjanak kapcsolódni kicsit. Egy könnyen elérhető viccportál. A célja az lenne, hogy humor segítségével feltöltse és inspárálja az olvasót.<br>
+Egy könnyen átlátható, használható rendszer felépítése. A weboldal színes és feltűnő legyen. A gombok jól láthatóan nézzenek ki, legyen eltérő színűk, mintázatuk az oldal főkoncepciójához képest, de maradjanak összhangban. Az oldal használata közben, ha megváltozik a képarány jól alkalmazkodjon hozzá a weboldal, úgy is jól használható maradjon. Törekedni kell az egyszerű, de ötletes megoldásokhoz. A weboldal több lapja között való lépegetés könnyen elérhető legyen. A viccportál lapjai között a kinézet valamilyen szinten módosuljon, kisebb változtatások a gombok színe, háttérelemek, betűtípus változzon meg. Interaktív gombok és szövegek használata, melyekhez különböző funkciókat kötünk hozzá, mint például szövegre kattintva tovább irányít egy másik oldalra link segítségével.
 
 ## Megrendelői cél: 
 1. A diákoknak több kedvük legyen a tanuláshoz. Például olyan viccekkel melyek iskolához kapcsolódnak.
@@ -26,25 +26,25 @@ Egy könnyen átlátható, használható rendszer felépítése. A weboldal szí
 4. Interaktív legyen.
 5. Elérhetőség, hogy a felhasználók tudjanak ötletet megosztani a szerkesztőkkel.
 6. Jól elkülöníthetőek legyenek a vicc kategóriák.
-7. Minden oldalon legyen lehetőség vissza lépni a főoldalra, ezzel is szertnénk hangsúlyozni az **1. pontban foglaltakat**.
+7. Minden oldalon legyen lehetőség visszalépni a főoldalra, ezzel is szertnénk hangsúlyozni az **1. pontban foglaltakat**.
 
 ## Megrendelői "atomi" igényspecifikáció:
-1. Legyen több fül, melyeken belül a viccek külön vannak szedve típus szerint.
-2. A kinézet ne változzon meg egyik oldalon sem, hogy ne kelljen keresni a felhasználónak a már jól megszokott füleket, linkeket, "gombokat".
+1. Legyen egy külön lap melyen belül a viccek külön vannak szedve típus szerint.
+2. A kinézet ne változzon meg egyik oldalon sem, hogy ne kelljen keresni a felhasználónak, tudja használni a már jól megszokott füleket, linkeket, "gombokat".
 
 <br>
 
 ------------------------------------------------------
 
 # Jelenlegi üzleti folyamatok modellje
-Sajnálatos módon a mai világban az oktatás nem használja ki megfelelő módon a technológiákat arra, hogy a tanulást sokkal szórakoztatóbbá és interaktívabbá tegye, ezáltal a diákok sokkal kevésbé motiváltak és egyre kevesebb kedvük van tanulni. Ez egyértelműen látszik a mostani tanulókon, akik már kiskoruk óta használnak valami okos eszközt. Legfőképpen tankönyevből tanulnak mellyek nem interaktívak és legtöbbször csak száraz tényeket tartalmaznak, nem beszélve arról, hogy mennyire pazarékolják a papírt, illetve ennek az extra költségeiről.
+Sajnálatos módon a mai világban az oktatás nem használja ki megfelelő módon a technológiákat arra, hogy a tanulást sokkal szórakoztatóbbá és interaktívabbá tegye, ezáltal a diákok sokkal kevésbé motiváltak és egyre kevesebb kedvük van tanulni. Ez egyértelműen látszik a mostani tanulókon, akik már kiskoruk óta használnak valami okos eszközt. Legfőképpen tankönyvből tanulnak melyek nem interaktívak és legtöbbször csak száraz tényeket tartalmaznak, nem beszélve arról, hogy mennyire pazaroljuk a papírt, illetve ennek az extra költségeiről.
 <br>
 
 ------------------------------------------------------
 
 # Igényelt üzleti folyamatok modellje
 Azért hogy megkönnyítsük a diákok és a tanárok feladatát, létrehozunk egy weblapot ami a mai kornak megfelelően
-helyt tud állni az elektronikai világban. A rengeteg stressz,szorongás közben könnyedén feloldódhatnak illetve megismerhetik a az adott témához  kapcsolódó vicceket melyekkel érdekesebbé válik. 
+helyt tud állni az elektronikai világban. A rengeteg stressz, szorongás közben könnyedén feloldódhatnak illetve megismerhetik az adott témához kapcsolódó vicceket melyekkel érdekesebbé válik. 
 
 <br>
 
