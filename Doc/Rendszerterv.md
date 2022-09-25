@@ -26,7 +26,7 @@ Rendszerterv
 # Projekt terv
 
 A rendszer célja egy olyan viccportál (weboldal) létrehozása mely kifejezetten a Debreceni Egyetem Informatikai Kar tanulói és hallgatói számára készül. A hétköznapi egyetemi élet nem egyszerű és sok sokszor rengeteg stresszt jelent egy diák és oktató életében egyaránt. Ezt a stresszt próbáljuk majd csökkenteni a humor segítségével egy viccportálon keresztül. A viccek tematikájukat tekintve informatika, matematika és az egyetem lennének a főtéma.
-Egy könnyen kezelhető főoldal és témaválasztó oldal az alapja, ezekről lehet tovább lépni a viccekhez melyek külön lapon szerepelnek. A viccportál felépítése könnyen átláható, oda-vissza lépés a különböző lapok között. Menüsor készítése a főoldalhoz, illetve a többi laphoz, oldalak közötti navigáció megkönnyítése és lehetővé tevése érdekében. A főoldal egy köszöntő oldal mely tovább vezet a témaválasztó oldalhoz. A témaválasztó oldal hasonlóan épül fel, viszont a tartalmi részén a témák külön megjelenítése és ismertetése van. A témaválasztó oldal segít felhasználónak és informálja őt, hogy merre tud tovább lépni. A témaválasztó oldalról olyan oldalra kerülünk melyek magukat a viccet tartalmazzák. Fontos hogy a weboldal telefonon, számítógépen is egyaránt elérhető legyen és az összes platformon megjelenítés jól nézzen ki és jól használható legyen.
+Egy könnyen kezelhető főoldal és témaválasztó oldal az alapja, ezekről lehet továbblépni a viccekhez melyek külön lapon szerepelnek. A viccportál felépítése könnyen átláható, oda-vissza lépés a különböző lapok között. Menüsor készítése a főoldalhoz, illetve a többi laphoz, oldalak közötti navigáció megkönnyítése és lehetővé tevése érdekében. A főoldal egy köszöntő oldal mely tovább vezet a témaválasztó oldalhoz. A témaválasztó oldal hasonlóan épül fel, viszont a tartalmi részén a témák külön megjelenítése és ismertetése van. A témaválasztó oldal segít felhasználónak és informálja őt, hogy merre tud tovább lépni. A témaválasztó oldalról olyan oldalra kerülünk melyek magukat a viccet tartalmazzák. Fontos hogy a weboldal telefonon, számítógépen is egyaránt elérhető legyen és az összes platformon megjelenítés jól nézzen ki és jól használható legyen.
 
 <img src = "felepites.png" alt = "Weboldal részletes felépítése" style ="height: 250px; width:250px;"/>
 
@@ -60,7 +60,7 @@ Egy könnyen kezelhető főoldal és témaválasztó oldal az alapja, ezekről l
 * Elképzelt kategóriák:<br>
 <img src="elkepzeleskategoriak.png" alt="Használati eset minta" style="height:150px; width:300px;"/>
 
-* Elképzelt Elérhetőség:<br>
+* Elképzelt elérhetőség:<br>
 <img src="elkepzeleselerhetoseg.png" alt="Használati eset minta" style="height:200px; width:300px;"/>
 
 * Elképzelt viccoldali elérhetőség:<br>
@@ -78,7 +78,7 @@ Egy könnyen kezelhető főoldal és témaválasztó oldal az alapja, ezekről l
 
 <img src="elkepzeleselerhetoseg.png" alt="Használati eset minta" style="height:200px; width:300px;"/>
 
-* Megvalósított Elérhetőség:<br>
+* Megvalósított elérhetőség:<br>
 
 <img src="elkepzeleselerhetoseg.png" alt="Használati eset minta" style="height:200px; width:300px;"/>
 
