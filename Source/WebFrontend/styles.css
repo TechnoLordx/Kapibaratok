@@ -253,7 +253,7 @@ body{ /* A navbart leszámítva minden más az oldalon */
     margin-top: 2em;
 }
 
-.tablakezeles {
+.tablakezeles { /* Elérhetőség - Táblázat kicsúszott a képernyőből - fix */
     position: relative;
     justify-content: center;
     align-items: center;
@@ -287,7 +287,7 @@ body{ /* A navbart leszámítva minden más az oldalon */
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px){ /* Elérhetőség - Táblázat kicsúszott a képernyőből - fix */
     .teamprofpic { /* Elérhetőség - A lenti 4 capybara kép */
         width: 7em;
         height: 6em;
