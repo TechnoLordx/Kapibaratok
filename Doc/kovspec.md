@@ -37,14 +37,15 @@ Egy könnyen átlátható, használható rendszer felépítése. A weboldal szí
 ------------------------------------------------------
 
 # Jelenlegi üzleti folyamatok modellje
-Sajnálatos módon a mai világban az oktatás nem használja ki megfelelő módon a technológiákat arra, hogy a tanulást sokkal szórakoztatóbbá és interaktívabbá tegye, ezáltal a diákok sokkal kevésbé motiváltak és egyre kevesebb kedvük van tanulni. Ez egyértelműen látszik a mostani tanulókon, akik már kiskoruk óta használnak valami okos eszközt. Legfőképpen tankönyvből tanulnak melyek nem interaktívak és legtöbbször csak száraz tényeket tartalmaznak, nem beszélve arról, hogy mennyire pazaroljuk a papírt, illetve ennek az extra költségeiről.
+Sajnálatos módon a mai világban az oktatás nem használja ki megfelelő módon a technológiákat arra, hogy a tanulást sokkal szórakoztatóbbá és interaktívabbá tegye, ezáltal a diákok sokkal kevésbé motiváltak és egyre kevesebb van kedvük tanulni. Ez egyértelműen látszik a mostani tanulókon, akik már kiskoruk óta használnak valami okos eszközt. Legfőképpen tankönyvből tanulnak melyek nem interaktívak és legtöbbször csak száraz tényeket tartalmaznak, nem beszélve arról, hogy mennyire pazaroljuk a papírt, illetve ennek az extra költségeiről.
+
 <br>
 
 ------------------------------------------------------
 
 # Igényelt üzleti folyamatok modellje
-Azért hogy megkönnyítsük a diákok és a tanárok feladatát, létrehozunk egy weblapot ami a mai kornak megfelelően
-helyt tud állni az elektronikai világban. A rengeteg stressz, szorongás közben könnyedén feloldódhatnak illetve megismerhetik az adott témához kapcsolódó vicceket melyekkel érdekesebbé válik. 
+Azért, hogy megkönnyítsük a diákok és a tanárok feladatát, létrehozunk egy weblapot, ami a mai kornak megfelelően
+helyt tud állni az elektronikai világban. A rengeteg stressz és szorongás közben a diákok könnyedén feloldódhatnak, illetve megismerhetik az adott témához kapcsolódó vicceket, melyekkel érdekesebbé válhat az adott tananyag. 
 
 <br>
 
@@ -74,7 +75,16 @@ Amint betöltött a weblap rögtön a kezdő oldalt látjuk. Innen kiválaszthat
  Lesznek speciális effektek?<br>
  Igen, szövegek többségén.<br>
  Van-e lehetőség az oldal tetejére ugrani gyorsan?<br>
- Igen, külön gomb leszrá.
+ Igen, külön gomb leszrá.<br>
+ Mennyi idő, hogy a beküldött vicc felkerüljön az oldalra?<br>
+ Nem sok idő (1-2 nap). <br>
+ Mitől függ, hogy a vicc kikerül-e az oldalra?<br>
+ A szerkesztőség megnézi a viccet, ha megfelel minden kritériumnak akkor publikálásra kerül.<br>
+ Lesznek új funkciók későbbiekben? Például nap vicce?<br>
+ Igen, tervben vannak új funkciók.<br>
+ A csapat bővülni fog-e?<br>
+ Nem fog bővülni.
+
 <br>
 
 ------------------------------------------------------
