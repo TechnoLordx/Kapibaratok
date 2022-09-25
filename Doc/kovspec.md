@@ -58,10 +58,23 @@ Amint betöltött a weblap rögtön a kezdő oldalt látjuk. Innen kiválaszthat
  Van lehetőség visszalépésre?<br>
  Igen, a vissza gomb segítségével.<br>
  Bárhonnan elérhető?<br>
- Igen, bármelyik oldalról.<br>
+ Igen, bármelyik eszközről.<br>
  A témák jól el vannak különítve?<br>
- Igen, teljesen jól átlátható.
-
+ Igen, teljesen jól átlátható<br>
+ Mobil készüléken is jól kinéző az oldal?<br>
+ Igen, mivel azt külön lekezeljük<br>
+ Elegendő viccet fog tartalmazni az adott témákhoz?<br>
+ Igen, törekszünk arra.<br>
+ Lesz-e lehetőség az oldal későbbi bővitésére?<br>
+ Igen, szükség esetén elvégezzük.<br>
+ Lehet-e a kapcsolatot felvenni a fejlesztőkkel?<br>
+ Igen, az elérhetőség szekcióba.<br>
+ Lehet-e megosztani ötleteket?<br>
+ Igen, lehet e-mail-en keresztűl.<br>
+ Lesznek speciális effektek?<br>
+ Igen, szövegek többségén.<br>
+ Van-e lehetőség az oldal tetejére ugrani gyorsan?<br>
+ Igen, külön gomb leszrá.
 <br>
 
 ------------------------------------------------------
