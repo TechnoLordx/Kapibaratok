@@ -255,14 +255,39 @@ megfogalmazott weblap, illetve állomány módosítási igényeket.
 Idő elteltével új témákat kell hozzáadni a weblaphoz, hogy fent tartsuk az
 érdeklődési szintet.
 ### Karbantartás
-Corrective Maintenance: A felhasználók által felfedezett és "user reportban"
+* Corrective Maintenance: A felhasználók által felfedezett és "user reportban"
 elküldött hibák kijavítása.
-Adaptive Maintenance: A program naprakészen tartása és finomhangolása.
-Perfective Maintenance: A szoftver hosszútávú használata érdekében végzett
+* Adaptive Maintenance: A program naprakészen tartása és finomhangolása.
+* Perfective Maintenance: A szoftver hosszútávú használata érdekében végzett
 módosítások, új funkciók, a weboldal teljesítményének és működési
 megbízhatóságának javítása.
-Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem
+* Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem
 tűnnek fontosnak, de később komoly problémákat okozhatnak.
+
+## Megvalósított weboldal kinézet
+
+### Kezdőoldal - NavBar - Gombok:
+* A főoldal tetején található, ezen az oldalon, ahogy görgetünk le a menüsor is jön lefelé. Ez tartalmazza az oldal nevét, és három linket. A Kezdőoldal a lap tetejére visz vissza. A Viccek átirányít a viccces viccek oldalra. Az Elérhetőségek pedig ledob a kezdőoldal alján található információ részlegre, ahol Rólunk (fejlesztők) vannak adatok és elérhetőségek.
+
+* A vissza gombbal értelemszerűen vissza lehet lépni, a felugró gomb pedig az oldal tetejére dob.
+
+<img src="kezdo_o__navbar.jpg" alt="Kezdőoldal"  />
+
+<img src="elerhetoseg_kezdo_o.jpg" alt="Elérhetőség"  />
+
+<br>
+
+###  Viccces Vicek oldal:
+* Ezen az oldalon találhatóak a Témák, amikre kattintva az oldalon oda vissz az adott téma vicceihez. (10 téma)
+
+* Illetve ezen az oldalon vannak az említett viccek is törekedtönk arra ó, hogy minndenhol elég vicc legyen.
+
+<br>
+<img src="temak_viccoldal.jpg" alt="Viccces viccek oldal"  />
+
+<img src="viccek_elrendezes.jpg" alt="Viccek"  />
+
+---
 
 ## Proof of Concept(POCOK)
 Érdemes kifejleszteni a projektet mivel saját magunkból kiindulva is a viccek igazán szórakoztatóvá tették ezt a projektet. Kevés ennyire szórakoztató program létezik amelyik ilyen szinten képes a diákok figyelmét felkelteni.
