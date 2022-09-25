@@ -51,3 +51,15 @@
 * A böngésző vizsgálat gombja segítségével lett tesztelve
 * Ezen belül is a Dimensions kategoriába tobb eszközön is tesztelt.
 * **Tesztelt ezkoözök : PC , iPhone SE, iPhone 12, iPad Air, Samsung Galaxy S8+**
+
+## Gombok tesztelés:
+ ### **Elvárás:** 
+* Megadott képernyőméret esetén aktiválja a **script.js** és **weboldal.js**   ben megírt kódot majd a **CSS** kód megváltoztatja a gombok helyzetét. Oldalt legyen fix méretű illetve kis képenyő esetén is jól elkülöníthetők legyenek a gombok. A vissza gomb a főoldralra vezessen bárhonnan, a felugró az oldal tetejére navigálja a felhasználót.
+
+1.Alap állapotban kiválóan működik:PC <br>
+<img src="lentjo.png" alt="Lent lévő állapot" width=600px height=300px><br>
+ <br>
+
+2.A tetejére visz kiválóan működik:PC <br>
+<img src="fentjo.png" alt="Oldal teteje" width=600px height=300px>
+* **Tesztelt ezkoözök : PC**
