@@ -1,3 +1,7 @@
+html,body{  
+    overflow-x:hidden;
+}
+
 *{
     box-sizing: inherit;
     padding: 0px;
@@ -13,6 +17,7 @@ body{ /* A navbart leszámítva minden más az oldalon */
     font-size: x-large;
     text-align: center;
 }
+
 
 .navbar{/* az egész menüt tartalmazza*/
     height: 100px;
@@ -248,7 +253,7 @@ body{ /* A navbart leszámítva minden más az oldalon */
     margin-top: 2em;
 }
 
-.tablakezeles {
+.tablakezeles { /* Elérhetőség - Táblázat kicsúszott a képernyőből - fix */
     position: relative;
     justify-content: center;
     align-items: center;
@@ -280,6 +285,20 @@ body{ /* A navbart leszámítva minden más az oldalon */
     padding-left: 1em;
     padding-right: 1em;
 }
+
+
+@media screen and (max-width: 800px){ /* Elérhetőség - Táblázat kicsúszott a képernyőből - fix */
+    .teamprofpic { /* Elérhetőség - A lenti 4 capybara kép */
+        width: 7em;
+        height: 6em;
+    }
+    .profpic { /* Elérhetőség - A profilképek megjelenése (kivéve a 4 capybara-s) */
+        width: 3em;
+        height: 3em;
+        border-radius: 50%;
+    }
+}
+
 
 .kapibaratokemail { /* Elérhetőség - A lenti 4 capybara kép alatti email*/
     margin-top: 1em;
@@ -318,7 +337,7 @@ a{
     font-size: 30px;
 }
 
-table{
+.erikkategoriatabla{
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
@@ -326,12 +345,14 @@ table{
 
 }
 
-th, td {
+.erikkategoriatabla>th, td {
     padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 40px;
 }
+
+
 a.button {
     
     background-color: black;
